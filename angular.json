@@ -82,6 +82,14 @@
           }
         }
       }
-    }},
-  "defaultProject": "aglancesolutions"
+    }
+  },
+  "defaultProject": "aglancesolutions",
+  "schematics": {
+    "@schematics/angular": {
+      "component": {
+        "spec": false
+      }
+    }
+  }
 }
