@@ -1,0 +1,473 @@
+@font-face {
+    font-family: raleway;
+    src: url(../../assets/fonts/Raleway-Thin.ttf)
+}
+
+@font-face {
+    font-family: ralewayBold;
+    src: url(../../assets/fonts/Raleway-SemiBold.ttf)
+}
+
+p,
+span {
+    font-family: raleway, sans-serif;
+}
+
+b {
+    font-family: ralewayBold !important;
+}
+
+.header {
+    background: #022d5d;
+    height: 52px !important;
+    min-height: 70px !important;
+    position: fixed !important;
+}
+
+.header-height {
+    height: 52px !important;
+}
+
+.menu {
+    border-top: 2px solid rgba(179, 242, 255, 1);
+    margin-left: 7%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    line-height: 52px !important;
+    text-align: center;
+    border-top: none;
+}
+
+.span-app:hover {
+    .drop-down {
+        display: block !important;
+    }
+}
+
+.menu a:hover {
+    color: #0BB6B2;
+    border-top: 3px solid rgba(179, 242, 255, 1);
+    line-height: 48px;
+}
+
+.focus {
+    color: #0BB6B2 !important;
+    border-top: 3px solid rgba(179, 242, 255, 1) !important;
+    line-height: 48px !important;
+}
+
+.paralax {
+    background-image: url(../../assets/images/backimage.webp);
+    background-attachment: fixed;
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 681px;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 0.3rem;
+    text-align: center;
+    color: #0BB6B2;
+}
+
+hr {
+    width: 20%;
+    border-bottom: 5px solid #0BB6B2;
+}
+
+.about {
+    font-size: 24px;
+    color: #002E5D;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.content {
+    margin-left: 23%;
+}
+
+.second-block {
+    background: #242323;
+}
+
+.academic {
+    width: 500px;
+    height: 422px;
+    background-image: url(../../assets/images/academic.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.academic:hover {
+    .academic-hover-back {
+        background-color: #020a3a87 !important;
+        height: 100%;
+    }
+
+    .text-link {
+        display: none !important;
+    }
+
+    .academic-hover {
+        display: block !important;
+    }
+}
+
+.health:hover {
+    .health-hover-back {
+        background-color: #020a3a87 !important;
+        height: 100%;
+    }
+
+    .text-link {
+        display: none !important;
+    }
+
+    .health-hover {
+        display: block !important;
+    }
+}
+
+.enterprise:hover {
+    .enterprise-hover-back {
+        background-color: #020a3a87 !important;
+        height: 100%;
+    }
+
+    .text-link {
+        display: none !important;
+    }
+
+    .enterprise-hover {
+        display: block !important;
+    }
+}
+
+.academic-hover,
+.health-hover,
+.enterprise-hover {
+    width: 50%;
+    color: white;
+    text-align: center;
+    display: none !important;
+}
+
+.academic-hover p {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.enterprise-hover p {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.health-hover p {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.academic-hover hr {
+    border-bottom: 2px solid white;
+}
+
+.enterprise-hover hr {
+    border-bottom: 2px solid white;
+}
+
+.health-hover hr {
+    border-bottom: 2px solid white;
+}
+
+.academic-hover button {
+    background: #0BB6B2;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 110px;
+}
+
+.enterprise-hover button {
+    background: #0BB6B2;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 110px;
+}
+
+.health-hover button {
+    background: #0BB6B2;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 110px;
+}
+
+.enterprise {
+    width: 500px;
+    height: 422px;
+    background-image: url(../../assets/images/enterprise.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.health {
+    width: 500px;
+    height: 422px;
+    background-image: url(../../assets/images/health.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-link a {
+
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+    font-size: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: ralewayBold !important;
+}
+
+.text-link svg {
+    width: 50px;
+    height: 25px;
+    margin-top: 3%;
+}
+
+.first-image {
+    width: 590px;
+    height: 420px;
+    background-image: url(../../assets/images/first.webp);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.second-image {
+    width: 590px;
+    height: 420px;
+    background-image: url(../../assets/images/second.webp);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.first-back {
+    background: #022d55;
+}
+
+.mapping,
+.track {
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mapping-about,
+.track-about {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.track,
+.track-about {
+    color: #002E57 !important;
+}
+
+.button {
+    background: #0BB6B2;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 110px;
+    margin: auto;
+}
+
+.font {
+    height: 409px !important;
+    min-height: 409px !important;
+    // position: absolute;
+    // left: 0;
+    background-image: url(../../assets/images/font.webp);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: rgb(22, 199, 146);
+}
+
+.font-1 {
+    background-color: #16c792cc;
+}
+
+.font-title {
+    font-size: 60px;
+    line-height: 0.3rem;
+}
+
+.font-2 p {
+    margin-top: 4%;
+    color: white;
+    text-align: center;
+}
+
+.font-2 hr {
+    width: 10%;
+    border-bottom: 5px solid white;
+}
+
+.people {
+    background: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.people img {
+    border-radius: 50%;
+    height: 200px;
+}
+
+.blue {
+    font-size: 26px;
+    color: #0BB6B2;
+    text-align: center;
+    font-weight: bold;
+    font-family: ralewayBold !important;
+}
+
+.blue-small {
+    color: #0BB6B2;
+    text-align: center;
+    font-size: 18px;
+}
+
+.white {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    width: 73%;
+}
+
+.email {
+    background: #002E57;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.email-about {
+    letter-spacing: 0.08em;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 1.2em;
+    font-weight: bold;
+    margin-bottom: 8%;
+    font-family: ralewayBold !important;
+}
+
+.title-email {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-size: 46px;
+    line-height: 0.3rem;
+    font-family: ralewayBold !important;
+}
+
+.email hr {
+    width: 10%;
+    border-bottom: 5px solid white;
+}
+
+.email input {
+    padding-left: 24px;
+    width: 260px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 3%;
+    font-style: italic;
+}
+
+.email input:hover {
+    width: 265px;
+    height: 57px;
+    margin-bottom: 1%;
+}
+
+.email textarea {
+    padding-left: 24px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 3%;
+    font-style: italic;
+}
+
+.email textarea:hover {
+    width: 76%;
+    // margin-bottom: 2%;
+}
+
+.block-bigger {
+    width: 80% !important;
+}
+
+.block-textaerea {
+    padding-top: 15px;
+    width: 75%
+}
+
+.button-submit {
+    background: #0BB6B2;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    height: 55px;
+    width: 136px;
+    font-size: 18px;
+}
+
+.logos {
+    margin-top: 15%;
+    width: 20%;
+}
+
+.logos img {
+    width: 42px;
+    height: 42px;
+}
+
+.drop-down {
+    display: none !important;
+    background: #ffffff6e;
+    padding-top: 3px;
+    position: absolute;
+    top: 70px;
+    width: 9%;
+}
+
+.drop-down p {
+    line-height: 2rem;
+    border-top: 1px solid rgba(179, 242, 255, 1);
+    color: white;
+}
+
+.drop-down p:hover {
+    border-top: 3px solid rgba(179, 242, 255, 1);
+    line-height: 1.8rem;
+    color: white;
+}
