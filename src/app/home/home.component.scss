@@ -264,7 +264,7 @@ hr {
 }
 
 .first-back {
-    background: #022d55;
+    background: #022f5a;
 }
 
 .mapping,
@@ -299,8 +299,6 @@ hr {
 .font {
     height: 409px !important;
     min-height: 409px !important;
-    // position: absolute;
-    // left: 0;
     background-image: url(../../assets/images/font.webp);
     background-size: auto;
     background-repeat: no-repeat;
@@ -393,7 +391,7 @@ hr {
 
 .email input {
     padding-left: 24px;
-    width: 260px;
+    width: 87%;
     height: 55px;
     border-radius: 10px;
     font-size: 18px;
@@ -403,7 +401,7 @@ hr {
 }
 
 .email input:hover {
-    width: 265px;
+    width: 89%;
     height: 57px;
     margin-bottom: 1%;
 }
@@ -418,17 +416,18 @@ hr {
 }
 
 .email textarea:hover {
-    width: 76%;
-    // margin-bottom: 2%;
+    width: 100%;
+    margin-bottom: 2%;
 }
 
 .block-bigger {
     width: 80% !important;
+    flex-wrap: wrap;
 }
 
 .block-textaerea {
     padding-top: 15px;
-    width: 75%
+    width: 95%
 }
 
 .button-submit {
@@ -470,4 +469,222 @@ hr {
     border-top: 3px solid rgba(179, 242, 255, 1);
     line-height: 1.8rem;
     color: white;
+}
+
+@media(max-width:1440px) {
+    .paralax {
+        background-size: contain;
+    }
+
+    .header-height {
+        max-width: 70% !important;
+    }
+
+    .content {
+        margin-left: 10%;
+        max-width: 35% !important;
+    }
+
+    .first-image,
+    .second-image {
+        background-size: contain;
+        background-position: center;
+    }
+
+    .media-block {
+        max-width: 40% !important;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    .media-block-people {
+        max-width: 70% !important;
+    }
+
+    .block-bigger div {
+        width: 45%;
+    }
+
+    .font-1 {
+        padding-top: 5%;
+    }
+
+    .font-2 {
+        padding-bottom: 3%;
+    }
+
+    .logos {
+        width: 30%;
+    }
+}
+
+@media(max-width:1024px) {
+    .header-height {
+        max-width: 90% !important;
+    }
+
+    .content {
+        margin-left: 0%;
+        max-width: 45% !important;
+    }
+
+    .logos {
+        width: 35%;
+    }
+
+    .media-block-email {
+        max-width: 90% !important;
+    }
+}
+
+@media(max-width: 768px) {
+    .header-height {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        max-width: 60% !important;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .menu {
+        margin: auto;
+        max-width: 98% !important;
+    }
+
+    .header {
+        min-height: 126px !important;
+    }
+
+    .paralax {
+        display: none;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .about {
+        font-size: 23px;
+    }
+
+    .media-block {
+        max-width: 40% !important;
+    }
+
+    .mapping,
+    .track {
+        font-size: 21px;
+    }
+
+    .media-block-people {
+        max-width: 90% !important;
+        flex-wrap: wrap;
+    }
+
+    .media-block-email {
+        max-width: 80% !important;
+    }
+
+    .content {
+        margin-top: 126px;
+    }
+
+    .font-1 {
+        padding-top: 5%;
+    }
+}
+
+@media(max-width: 425px) {
+    .header-height {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        max-width: 90% !important;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .menu {
+        margin: auto;
+        max-width: 100% !important;
+    }
+
+    .header {
+        min-height: 126px !important;
+    }
+
+    .paralax {
+        display: none !important;
+    }
+
+    .content {
+        max-width: 100% !important;
+        margin-top: 120px;
+    }
+
+    .second-block {
+        flex-wrap: wrap;
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .first-back {
+        max-width: 100% !important;
+    }
+
+    // .media-margin {
+    //     margin-left: 20% !important;
+    // }
+
+    .first-back {
+        flex-wrap: wrap-reverse;
+    }
+
+    .media-block {
+        max-width: 55% !important;
+    }
+
+    .second-image {
+        display: none;
+    }
+
+    .second-back {
+        max-width: 100% !important;
+        margin-bottom: 5%;
+    }
+
+    .font-title {
+        font-size: 24px;
+        padding-top: 7%;
+    }
+
+    .font-2 {
+        max-width: 80% !important;
+        margin-bottom: 5%;
+    }
+
+    .media-block-people {
+        flex-wrap: wrap;
+    }
+
+    .menu a {
+        font-size: 11px;
+    }
+
+    .title-email {
+        font-size: 25px;
+    }
+
+    .block-bigger div {
+        width: 100%;
+    }
+
+    .logos {
+        width: 70%;
+    }
 }

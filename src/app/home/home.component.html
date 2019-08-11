@@ -7,7 +7,7 @@
             <a href="" fxFlex="25%" class="focus">
                 <span>HOME</span>
             </a>
-            <a href="" fxFlex="25%">
+            <a routerLink="blog" fxFlex="25%">
                 <span>BLOG</span>
             </a>
             <a href="" fxFlex="25%" fxLayout="column" class="span-app">
@@ -25,7 +25,7 @@
     </div>
 </div>
 
-<div fxLayout="row" fxFlexFill fxLayoutAlign="center center">
+<div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="media-margin">
     <div fxFlex="21%" fxLayoutAlign="end center" fxLayout="column" class="content">
         <div>
             <p class="title">
@@ -47,7 +47,7 @@
     <div class="paralax"></div>
 </div>
 
-<div fxLayout="row" fxFlexFill fxLayoutAlign="space-around center" class="second-block">
+<div fxLayout="row" fxFlexFill fxLayoutAlign="space-around center" class=" second-block media-margin">
     <div class="academic" fxLayoutAlign="center center">
         <div class="text-link" fxLayout="column" fxLayoutAlign="center center">
             <a href="">Academic</a>
@@ -126,10 +126,10 @@
     </div>
 </div>
 
-<div fxLayout="row" fxFlexFill fxLayoutAlign="center center">
+<div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="flex-wrap media-margin">
     <div fxFlex="50%" fxLayout="row" fxLayoutAlign="space-around center" class="first-back">
         <div class="first-image"></div>
-        <div fxLayout="column" fxFlex="23%">
+        <div fxLayout="column" fxFlex="23%" class="media-block">
             <p class="mapping">A mapping and analytics software</p>
             <p class="mapping-about">Navigate Pain software provides insight about pain and discomfort</p>
             <button class="button">
@@ -137,8 +137,8 @@
             </button>
         </div>
     </div>
-    <div fxFlex="50%" fxLayout="row" fxLayoutAlign="start center" fxLayoutAlign="space-around center">
-        <div fxLayout="column" fxFlex="23%">
+    <div fxFlex="50%" fxLayout="row" fxLayoutAlign="start center" class="second-back" fxLayoutAlign="space-around center">
+        <div fxLayout="column" fxFlex="23%" class="media-block">
             <p class="track">Track, locate and report changes</p>
             <p class="track-about">Scientifically validated avatars guide precision reports</p>
             <button class="button">
@@ -149,7 +149,7 @@
     </div>
 </div>
 
-<div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="font">
+<div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="font" class="media-margin">
     <div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="font-1">
         <div fxFlex="50%" class="font-2">
             <p class="font-title">
@@ -172,8 +172,8 @@
     </div>
 </div>
 
-<div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="people">
-    <div fxLayoutAlign="center start" fxFlex="50%">
+<div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="people media-margin">
+    <div fxLayoutAlign="center start" fxFlex="50%" class="media-block-people">
         <div fxLayoutAlign="center center" fxLayout="column">
             <img src="../../assets/images/Shellie_edited_edited.webp" alt="">
             <p class="blue">Shellie A. Boudreau</p>
@@ -200,30 +200,26 @@
     </div>
 </div>
 
-<div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="email">
-    <div fxLayoutAlign="center center" fxFlex="40%" fxLayout="column">
+<div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="email media-margin">
+    <div fxLayoutAlign="center center" fxFlex="40%" fxLayout="column" class="media-block-email">
         <p class="title-email">GET IN TOUCH</p>
         <hr>
         <p class="email-about">We would love to hear from you</p>
-        <div fxLayoutAlign="space-around center" class="block-bigger">
+        <div fxLayoutAlign="space-between center" class="block-bigger">
             <div>
                 <input type="text" placeholder="First Name">
             </div>
             <div>
                 <input type="text" placeholder="Last Name">
             </div>
-        </div>
-        <div fxLayoutAlign="space-around start" class="block-bigger">
             <div>
                 <input type="email" placeholder="Email">
             </div>
             <div>
                 <input type="phone" placeholder="Phone">
             </div>
+            <textarea class="block-textaerea" name="" id="" cols="30" rows="10" placeholder="Type your message here"></textarea>
         </div>
-
-        <textarea class="block-textaerea" name="" id="" cols="30" rows="10" placeholder="Type your message here"></textarea>
-
         <button class="button-submit">Submit</button>
 
         <div fxLayoutAlign="space-around start" class="logos">
