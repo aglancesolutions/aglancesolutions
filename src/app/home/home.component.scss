@@ -207,11 +207,12 @@ hr {
     border-bottom: 5px solid #0BB6B2;
 }
 
-.about {
+.about p {
     font-size: 24px;
     color: #002E5D;
     text-align: center;
     margin-bottom: 1%;
+    font-family: ralewayRegular !important;
 }
 
 .content {
@@ -609,6 +610,22 @@ hr {
     border-top: 3px solid rgba(179, 242, 255, 1);
     line-height: 1.8rem;
     color: white;
+}
+
+@media(max-width:1640px) {
+    .media-block {
+        max-width: 27% !important;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .media-block-people {
+        max-width: 60% !important;
+    }
+
+    .email textarea {
+        height: 140px;
+    }
 }
 
 @media(max-width:1440px) {
