@@ -8,6 +8,15 @@
     src: url(../../assets/fonts/Raleway-SemiBold.ttf)
 }
 
+@font-face {
+    font-family: ralewayRegular;
+    src: url(../../assets/fonts/Raleway-Regular.ttf)
+}
+
+.regular {
+    font-family: ralewayRegular;
+}
+
 p,
 span {
     font-family: raleway, sans-serif;
@@ -52,6 +61,113 @@ b {
     border-top: 3px solid rgba(179, 242, 255, 1);
     line-height: 48px;
 }
+
+// menu-burger
+.menu-media-burger {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    top: 9px;
+    left: 9px;
+    width: 50px;
+    height: 50px;
+}
+
+#menu__toggle {
+    opacity: 0;
+}
+
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    margin: auto;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ffffffcf;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: raleway, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    width: 70%;
+    margin: auto;
+}
+
+.focus-a {
+    color: rgba(179, 242, 255, 1);
+}
+
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
+
+#menu__toggle:checked~.menu__btn>span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked~.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked~.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+    visibility: visible;
+    left: 0;
+}
+
+// ------------
 
 .focus {
     color: #0BB6B2 !important;
@@ -178,9 +294,9 @@ li {
 
 .title {
     font-size: 23px;
-    font-weight: bolder;
     color: rgba(65, 65, 65, 1);
     margin: 3% 0 1%;
+    font-family: ralewayRegular;
 }
 
 .title-content {
@@ -189,7 +305,7 @@ li {
 
 .logos {
     margin: auto;
-    width: 15%;
+    width: 8%;
 }
 
 .logos img {
@@ -203,9 +319,20 @@ li {
     margin-top: 5%;
 }
 
+.media-show {
+    display: none !important;
+    margin: 100px;
+}
 
-@media(max-width:1440px) {
+// @media(max-width:1600px) {
 
+//     .navigation-media,
+//     .content {
+//         max-width: 70% !important;
+//     }
+// }
+
+@media(max-width:1441px) {
     .header-height {
         max-width: 70% !important;
     }
@@ -215,7 +342,27 @@ li {
     }
 }
 
-@media(max-width:1024px) {
+@media(max-width:1025px) {
+    .menu {
+        display: none !important;
+    }
+
+    .menu-media-burger {
+        display: block !important;
+    }
+
+    .media-hide {
+        display: none !important;
+    }
+
+    .media-show {
+        display: flex !important;
+    }
+
+    .logo {
+        margin: auto;
+    }
+
     .header-height {
         max-width: 90% !important;
     }
@@ -224,14 +371,15 @@ li {
         width: 35%;
     }
 
-    .content,
-    .navigation-media {
+    .content {
         max-width: 90% !important;
     }
 
-    // .navigation-media {
-    //     margin-top: 100px;
-    // }
+    .navigation-media {
+        margin-top: 70px;
+        display: none !important;
+    }
+
 }
 
 @media(max-width: 768px) {
@@ -240,7 +388,7 @@ li {
     }
 
     .logo {
-        max-width: 60% !important;
+        max-width: 35% !important;
         margin: auto;
         margin-top: 5%;
     }
@@ -251,7 +399,8 @@ li {
     }
 
     .header {
-        min-height: 126px !important;
+        min-height: 110px !important;
+        padding-top: 2%;
     }
 
     .navigation-media {
@@ -286,7 +435,7 @@ li {
 
     .column1,
     .column2 {
-        max-width: 98% !important;
+        max-width: 99% !important;
     }
 
     .header-height {
@@ -299,20 +448,30 @@ li {
         margin-top: 5%;
     }
 
+    .content .navigation-media {
+        max-width: 98% !important;
+    }
+
     .menu {
         margin: auto;
         max-width: 100% !important;
-    }
-
-    .header {
-        min-height: 126px !important;
     }
 
     .menu a {
         font-size: 11px;
     }
 
+    .media-head {
+        max-width: 26% !important;
+    }
+
     .logos {
         width: 70%;
+    }
+}
+
+@media(max-width:321px) {
+    .card img {
+        height: 150px;
     }
 }
