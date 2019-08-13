@@ -1,0 +1,442 @@
+<div class="header" fxLayout="row" fxFlexFill fxLayoutAlign="center center">
+    <div fxLayout="row" fxLayoutAlign="start center" fxFlex="55%" class="header-height">
+        <div class="menu-media-burger">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li>
+                        <a class="menu__item focus-a" href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a class="menu__item" href="#">BLOG</a>
+                    </li>
+                    <li>
+                        <a class="menu__item" href="#">APPLICATIONS</a>
+                    </li>
+                    <li>
+                        <a class="menu__item" href="#">ACADEMIC</a>
+                    </li>
+                    <li>
+                        <a class="menu__item" href="#">HEALTHCARE</a>
+                    </li>
+                    <li>
+                        <a class="menu__item" href="#">RESEARCH</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="logo" fxFlex="30%">
+            <img src="../../assets/images/logo.png" alt="">
+        </div>
+        <div class="menu" fxFlex="70%" fxLayout="row" fxFlexFill fxLayoutAlign="space-around center">
+            <a href="" fxFlex="25%" class="focus">
+                <span>
+                    <b i18n>HOME</b>
+                </span>
+            </a>
+            <a routerLink="blog" fxFlex="25%">
+                <span>
+                    <b i18n>BLOG</b>
+                </span>
+            </a>
+            <a fxFlex="25%" fxLayout="column" class="span-app">
+                <span>
+                    <b i18n>APPLICATIONS</b>
+                </span>
+                <div fxLayout="column" class="drop-down">
+                    <p routerLink="/academic">
+                        <b i18n>ACADEMIC</b>
+                    </p>
+                    <p>
+                        <b i18n>HEALTHCARE</b>
+                    </p>
+                    <p>
+                        <b i18n>ENTERPRISE</b>
+                    </p>
+                </div>
+            </a>
+            <a href="" fxFlex="25%">
+                <span>
+                    <b i18n>RESEARCH</b>
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="background" fxLayout="column" fxFlexFill fxLayoutAlign="center center">
+    <div class="title" fxLayoutAlign="center center">
+        <p>
+            <b>ACADEMIC</b>
+        </p>
+    </div>
+    <div class="title-about" fxLayoutAlign="center center" fxLayout="column">
+        <p class="title-first">
+            <b>How else would you collect pain maps from over 10,000 patients?</b>
+        </p>
+        <hr class="title-hr">
+        <p class="title-second">
+            <b>Anyone can submit pain maps at any time from anywhere via phone, computer or tablet.</b>
+        </p>
+    </div>
+    <div class="blocks" fxLayoutAlign="center center">
+        <div fxFlex="50%" fxLayoutAlign="space-between center">
+            <img src="../../../assets/images/block1.webp" alt="">
+            <p class="block-title regular">Map locations and quantify areas of pain and discomfort.</p>
+        </div>
+        <div fxFlex="50%" fxLayoutAlign="space-between center">
+            <img src="../../../assets/images/block2.webp" alt="">
+            <p class="block-title regular">Track intensity of mapped pain and discomfort.</p>
+        </div>
+    </div>
+    <div class="blocks" fxLayoutAlign="center center">
+        <div fxFlex="50%" fxLayoutAlign="space-between center">
+            <p class="block-title regular">Export data of pain and discomfort areas for statistical analyses</p>
+            <img src="../../../assets/images/block3.webp" alt="">
+        </div>
+        <div fxFlex="50%" fxLayoutAlign="space-between center">
+            <p class="block-title regular">Choose from male, female, child or custom avatars</p>
+            <img src="../../../assets/images/block4.webp" alt="">
+        </div>
+    </div>
+
+    <div class="shadow-back" fxLayoutAlign="center center">
+        <div class="shadow" fxLayoutAlign="center center"></div>
+    </div>
+
+    <div class="pricing" fxLayoutAlign="center center">
+        <p fxFlex="100%">
+            <b>PRICING</b>
+        </p>
+    </div>
+    <div fxLayoutAlign="space-between start" class="price-content">
+        <div fxFlex="31%" class="price">
+            <div class="blue-back">
+                <p>
+                    <b>BASIC</b>
+                </p>
+            </div>
+            <div class="content">
+                <p class="year">
+                    €499 / year
+                </p>
+                <p class="patients regular">50 patients</p>
+                <p class="title-ul">
+                    <b>Mapping</b>
+                </p>
+                <ul>
+                    <li>Pain drawings</li>
+                    <li>Symptom and pain quality drawing (color) options</li>
+                    <li>Pain intensity reporting</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Body-chart Templates</b>
+                </p>
+                <ul>
+                    <li>Male, female, child body-chart templates</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Real-time Analytics</b>
+                </p>
+                <ul>
+                    <li>Pain area</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Visualization</b>
+                </p>
+                <ul>
+                    <li>Timeline drawing review</li>
+                    <li>Toggle function</li>
+                    <li class="transparent">Body-region divisions including simple, dermatome and myotome</li>
+                </ul>
+                <!-- <p class="transparent">Body-region divisions including simple, dermatome and myotome</p> -->
+
+                <p class="title-ul">
+                    <b>Exports</b>
+                </p>
+                <ul>
+                    <li>Single chart export</li>
+                    <li class="transparent">Bulk chart export</li>
+                </ul>
+                <!-- <p class="transparent">Body-region divisions including </p> -->
+
+                <p class="title-ul">
+                    <b>Big Data Tools</b>
+                </p>
+                <ul>
+                    <li>2 additional users</li>
+                    <li>Multiple languages</li>
+                    <li>4 submissions per day per patient</li>
+                </ul>
+                <p class="title-ul transparent">
+                    <b>Support</b>
+                </p>
+                <ul>
+                    <li class="transparent">Email support</li>
+                </ul>
+            </div>
+        </div>
+        <div fxFlex="31%" class="price">
+            <div class="blue-back">
+                <p>
+                    <b>ADVANCED</b>
+                </p>
+            </div>
+            <div class="content">
+                <p class="year">
+                    €999 / year
+                </p>
+                <p class="patients regular">1000 patients</p>
+                <p class="title-ul">
+                    <b>Mapping</b>
+                </p>
+                <ul>
+                    <li>Pain drawings</li>
+                    <li>Symptom and pain quality drawing (color) options</li>
+                    <li>Pain intensity reporting</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Body-chart Templates</b>
+                </p>
+                <ul>
+                    <li>Male, female, child body-chart templates</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Real-time Analytics</b>
+                </p>
+                <ul>
+                    <li>Pain area</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Visualization</b>
+                </p>
+                <ul>
+                    <li>Timeline drawing review</li>
+                    <li>Toggle function</li>
+                    <li>Body-region divisions including simple, dermatome and myotome</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Exports</b>
+                </p>
+                <ul>
+                    <li>Single chart export</li>
+                    <li>Bulk chart export</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Big Data Tools</b>
+                </p>
+                <ul>
+                    <li>5 additional users</li>
+                    <li>Multiple languages</li>
+                    <li>8 submissions per day per patient</li>
+                </ul>
+                <p class="title-ul">
+                    <b>Support</b>
+                </p>
+                <ul>
+                    <li>Email support</li>
+                </ul>
+            </div>
+        </div>
+        <div fxFlex="31%" class="price">
+            <div class="blue-back">
+                <p>
+                    <b>PREMIUM</b>
+                </p>
+            </div>
+            <div class="content">
+                <p class="year">
+                    €2.749 / year
+                </p>
+                <p class="patients regular">10,000 patients</p>
+                <p class="title-ul">
+                    <b>Mapping</b>
+                </p>
+                <ul>
+                    <li>Pain drawings</li>
+                    <li>Symptom and pain quality drawing (color) options</li>
+                    <li>Pain intensity reporting</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Body-chart Templates</b>
+                </p>
+                <ul>
+                    <li>Male, female, child body-chart templates</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Real-time Analytics</b>
+                </p>
+                <ul>
+                    <li>Pain area</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Visualization</b>
+                </p>
+                <ul>
+                    <li>Timeline drawing review</li>
+                    <li>Toggle function</li>
+                    <li>Body-region divisions including simple, dermatome and myotome</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Exports</b>
+                </p>
+                <ul>
+                    <li>Single chart export</li>
+                    <li>Bulk chart export</li>
+                </ul>
+
+                <p class="title-ul">
+                    <b>Big Data Tools</b>
+                </p>
+                <ul>
+                    <li>5 additional users</li>
+                    <li>Multiple languages</li>
+                    <li>8 submissions per day per patient</li>
+                </ul>
+                <p class="title-ul">
+                    <b>Support</b>
+                </p>
+                <ul>
+                    <li>Email support</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="pricing" fxLayoutAlign="center center">
+        <p fxFlex="100%">
+            <b>EXTRAS</b>
+        </p>
+    </div>
+
+    <div class="cards" fxLayoutAlign="center center" fxLayout="column">
+        <div class="card" fxLayoutAlign="space-between center">
+            <div fxFlex="30%" class="number" fxLayoutAlign="space-between center">
+                <p>
+                    <b>01</b>
+                </p>
+            </div>
+            <div fxFlex="70%" class="card-content">
+                <p class="card-content-title">
+                    <b>Advanced Analytics and Visualization €499 / year</b>
+                </p>
+                <ul class="card-ul">
+                    <li>Body-division sub-calculations (coming soon)</li>
+                    <li>Bulk PNG per color per quality</li>
+                    <li>Heat Map exports (coming soon)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card" fxLayoutAlign="space-between center">
+            <div fxFlex="30%" class="number" fxLayoutAlign="space-between center">
+                <p>
+                    <b>02</b>
+                </p>
+            </div>
+            <div fxFlex="70%" class="card-content">
+                <p class="card-content-title">
+                    <b>Remote Data Collection
+                        <br> €499 / year</b>
+                </p>
+                <ul class="card-ul">
+                    <li>Email scheduler</li>
+                    <li>Remote chart submission</li>
+                    <li>Single-use pain mapping link</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card" fxLayoutAlign="space-between center">
+            <div fxFlex="30%" class="number" fxLayoutAlign="space-between center">
+                <p>
+                    <b>03</b>
+                </p>
+            </div>
+            <div fxFlex="70%" class="card-content">
+                <p class="card-content-title">
+                    <b>Advanced Analytics and Visualization & Remote Data Collection
+                        <br> €749 / year</b>
+                </p>
+                <ul class="card-ul">
+                    <li>Combination of extras 01 and 02</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sign" fxLayoutAlign="center center" fxLayout="column">
+            <p>
+                <b>
+                    <i>Sign up for a trial period. No payment details required.</i>
+                </b>
+            </p>
+            <button>Sign up</button>
+        </div>
+    </div>
+
+    <div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="email media-margin">
+        <div fxLayoutAlign="center center" fxFlex="40%" fxLayout="column" class="media-block-email">
+            <div class="pricing" fxLayoutAlign="center center">
+                <p fxFlex="100%">
+                    <b>GET IN TOUCH</b>
+                </p>
+            </div>
+            <p class="email-about regular">Want to learn more? Contact us about tailored solutions and quotes to match the size and needs of your project.</p>
+            <div fxLayoutAlign="space-between center" class="block-bigger">
+                <div>
+                    <input type="text" i18n-placeholder placeholder="First Name">
+                </div>
+                <div>
+                    <input type="text" i18n-placeholder placeholder="Last Name">
+                </div>
+                <div>
+                    <input type="email" i18n-placeholder placeholder="Email">
+                </div>
+                <div>
+                    <input type="phone" i18n-placeholder placeholder="Phone">
+                </div>
+                <textarea class="block-textaerea" name="" id="" cols="30" rows="10" i18n-placeholder placeholder="Type your message here"></textarea>
+            </div>
+            <button class="button-submit">
+                <i>Submit</i>
+            </button>
+
+        </div>
+    </div>
+
+
+    <div class="site" fxLayout="row" fxFlexFill>
+        <div fxLayoutAlign="end center" fxFlex="23%">
+            <img src="../../../assets/images/officialsite.webp" alt="">
+        </div>
+        <div fxFlex="53%" fxLayout="column">
+            <p>
+                <b>OFFICIAL SITE OF NAVIGATE PAIN</b>
+            </p>
+            <hr>
+            <span class="regular">Copyright (C) Aglance Solutions AALBORG, DENMARK
+                <br> Last updated 17-09-2019</span>
+        </div>
+    </div>
+
+    <div fxLayoutAlign="space-around start" class="logos">
+        <img src="../../../assets/images/facebook.png" alt="">
+        <img src="../../../assets/images/twitter.png" alt="">
+        <img src="../../../assets/images/linkdin.png" alt="">
+    </div>
+
+
+</div>
