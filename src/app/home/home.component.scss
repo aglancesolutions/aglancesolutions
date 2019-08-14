@@ -98,9 +98,13 @@ b,
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: #ffffffcf;
+    background-color: #fffffff2;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 }
+
+// .hide {
+//     display: none;
+// }
 
 .menu__item {
     display: block;
@@ -112,6 +116,10 @@ b,
     border-bottom: 1px solid white;
     width: 70%;
     margin: auto;
+}
+
+.hide {
+    border: none;
 }
 
 .focus-a {
@@ -144,7 +152,7 @@ b,
 //   ---------------
 
 .header {
-    background: #022d5d;
+    background: #012240;
     height: 52px !important;
     min-height: 70px !important;
     position: fixed !important;
@@ -202,14 +210,15 @@ b,
 }
 
 .title {
-    font-size: 60px;
-    line-height: 0.3rem;
+    font-size: 48px;
+    line-height: 3rem;
     text-align: center;
     color: #0BB6B2;
+    margin-top: 25%;
 }
 
 hr {
-    width: 20%;
+    width: 15%;
     border-bottom: 5px solid #0BB6B2;
 }
 
@@ -322,31 +331,50 @@ hr {
     display: none !important;
 }
 
+.btn-link {
+    background: #0BB6B2;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+    color: white;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.btn-link:hover {
+    background: black;
+}
+
 .academic-hover button {
     background: #0BB6B2;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
-    color: white;
     height: 40px;
-    width: 110px;
+    width: 130px;
+    font-size: 16px;
+    color: white;
 }
 
 .enterprise-hover button {
     background: #0BB6B2;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
-    color: white;
     height: 40px;
-    width: 110px;
+    width: 130px;
+    font-size: 16px;
+    color: white;
 }
 
 .health-hover button {
     background: #0BB6B2;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
-    color: white;
     height: 40px;
-    width: 110px;
+    width: 130px;
+    font-size: 16px;
+    color: white;
 }
 
 .enterprise {
@@ -424,11 +452,12 @@ hr {
 
 .button {
     background: #0BB6B2;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
-    color: white;
     height: 40px;
-    width: 110px;
+    width: 130px;
+    font-size: 16px;
+    color: white;
     margin: auto;
 }
 
@@ -438,17 +467,12 @@ hr {
     background-image: url(../../assets/images/font.webp);
     background-size: auto;
     background-repeat: no-repeat;
-    background-color: rgb(22, 199, 146);
+    background-color: #14b6b2;
 }
 
 .font-1 {
-    background-color: #16c792cc;
+    background-color: #14b6b29e;
     padding-bottom: 2%;
-}
-
-.font-title {
-    font-size: 60px;
-    line-height: 0.3rem;
 }
 
 .font-2 {
@@ -456,9 +480,15 @@ hr {
 }
 
 .font-2 p {
+    font-size: 18px;
     margin-top: 3%;
     color: white;
     text-align: center;
+}
+
+.font-2 .font-title {
+    font-size: 60px;
+    line-height: 0.3rem;
 }
 
 .font-2 hr {
@@ -468,7 +498,7 @@ hr {
 }
 
 .people {
-    background: black;
+    background: #012240;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -514,7 +544,7 @@ hr {
     line-height: 1.2em;
     font-weight: bold;
     margin-bottom: 8%;
-    font-family: ralewayBold !important;
+    // font-family: ralewayBold !important;
 }
 
 .title-email {
@@ -536,11 +566,19 @@ hr {
     padding-left: 24px;
     width: 87%;
     height: 55px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 18px;
     border: none;
     margin-bottom: 3%;
     font-style: italic;
+}
+
+.email input::placeholder {
+    color: #02305b;
+}
+
+.email textarea::placeholder {
+    color: #02305b;
 }
 
 .email input:hover {
@@ -559,7 +597,7 @@ hr {
 }
 
 .email textarea:hover {
-    width: 100%;
+    width: 95%;
     margin-bottom: 2%;
 }
 
@@ -574,22 +612,29 @@ hr {
 
 .block-textaerea {
     padding-top: 15px;
-    width: 95%
+    width: 94%;
+    height: 115px;
 }
 
 .button-submit {
     background: #0BB6B2;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
-    color: white;
-    height: 55px;
-    width: 136px;
+    height: 50px;
+    width: 145px;
     font-size: 18px;
+    color: white;
+    margin-bottom: 10%;
+}
+
+.logos-back {
+    background: #012240;
 }
 
 .logos {
-    margin-top: 15%;
-    width: 20%;
+    margin-top: 1%;
+    margin-bottom: 7%;
+    width: 150px;
 }
 
 .logos img {
@@ -793,6 +838,11 @@ hr {
         width: 92%;
     }
 
+    .font-2 .font-title {
+        font-size: 33px;
+        line-height: 3rem;
+    }
+
 
 }
 
@@ -905,9 +955,10 @@ hr {
         font-size: 15px;
     }
 
-    .font-title {
-        font-size: 24px;
+    .font-2 .font-title {
+        font-size: 24px !important;
         padding-top: 7%;
+        line-height: 3rem;
     }
 
     .font-2 {

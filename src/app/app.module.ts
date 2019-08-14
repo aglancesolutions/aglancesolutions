@@ -15,6 +15,7 @@ import { TRANSLATIONS, TRANSLATIONS_FORMAT, LOCALE_ID } from '@angular/core';
 // let current_language = 'ru';
 import { RU_TRANS } from './messages.ru';
 import { AcademicComponent } from './applications/academic/academic.component';
+import { EnterpriseComponent } from './applications/enterprise/enterprise.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '/translation.json');
@@ -23,11 +24,12 @@ export function createTranslateLoader(http: HttpClient) {
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'blog', component: BlogComponent },
-  { path: 'academic', component: AcademicComponent }
+  { path: 'academic', component: AcademicComponent },
+  { path: 'enterprise', component: EnterpriseComponent }
 ];
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, BlogComponent, AcademicComponent],
+  declarations: [AppComponent, HomeComponent, BlogComponent, AcademicComponent, EnterpriseComponent],
   imports: [
     RouterModule.forRoot(appRoutes),
     BrowserModule,

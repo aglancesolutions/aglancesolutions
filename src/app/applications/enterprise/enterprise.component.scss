@@ -13,14 +13,12 @@
     src: url(../../../assets/fonts/Raleway-Regular.ttf)
 }
 
-.regular,
-li {
+.regular {
     font-family: ralewayRegular !important;
 }
 
 p,
-span,
-    {
+span {
     font-family: raleway, sans-serif;
 }
 
@@ -90,9 +88,13 @@ b {
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: #ffffffcf;
+    background-color: #fffffff2;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 }
+
+// .hide {
+//     display: none;
+// }
 
 .menu__item {
     display: block;
@@ -104,6 +106,10 @@ b {
     border-bottom: 1px solid white;
     width: 70%;
     margin: auto;
+}
+
+.hide {
+    border: none;
 }
 
 .focus-a {
@@ -211,7 +217,7 @@ b {
 }
 
 .title {
-    background-image: url(../../../assets/images/academic1.webp);
+    background-image: url(../../../assets/images/enterprisepage.webp);
     background-position: center;
     background-size: cover;
     height: 555px;
@@ -232,95 +238,88 @@ b {
     text-align: center;
 }
 
-.font-1 {
-    background-color: #14b6b2a8;
-}
-
 .title-about {
     width: 53%;
-    background-image: url(../../../assets/images/font.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #14b6b2;
+    background-color: white;
 }
 
 .title-first {
     font-size: 36px;
     letter-spacing: 0.05em;
-    color: white;
+    color: #14b6b2;
     text-align: center;
-    width: 70%;
+    width: 85%;
     margin: 3% auto 1%;
 }
 
 .title-hr {
-    border-top: 3px solid white;
+    border-top: 3px solid #14b6b2;
     width: 5%;
 }
 
 .title-second {
     font-size: 23px;
     line-height: 1.6em;
-    color: white;
+    color: #022c5c;
     text-align: center;
-    width: 60%;
+    width: 70%;
     margin: 1% auto 5%;
 }
 
-.blocks {
+.work {
     width: 53%;
-    background: #0BB6B2;
-    padding-bottom: 3%;
+    background: #012240;
 }
 
-.block-title {
+.work1 {
+    width: 53%;
+    background: white;
+}
+
+.work p,
+.work1 p {
+    letter-spacing: 0.15em;
+    font-family: Helvetica, sans-serif !important;
+    color: #0BB6B2;
+    font-size: 32px;
+    line-height: 1em;
+    text-align: center;
+    width: 90%;
+}
+
+.work span {
     font-size: 22px;
-    line-height: 1.5em;
+    line-height: 1.4em;
     text-align: center;
     color: #FFFFFF;
+    width: 80%;
+    margin-bottom: 1%;
 }
 
-.shadow-back {
-    width: 53%;
-    height: 29px;
-}
-
-.shadow {
-    background-image: url(../../../assets/images/fade_line.png);
-    background-position: 0 58px;
-    height: 29px;
-    width: 100%;
-}
-
-.shadow-back::after {
-    background-image: url(../../../assets/images/fade_line.png);
-    background-position: 100% -87px;
-    height: 29px;
-    right: 0;
-    position: relative;
-    top: 0;
-    width: 100px;
-    content: "";
-}
-
-.shadow-back::before {
-    background-image: url(../../../assets/images/fade_line.png);
-    background-position: 0% -87px;
-    height: 29px;
-    right: 0;
-    position: relative;
-    top: 0;
-    width: 100px;
-    content: "";
-}
-
-.pricing p {
-    letter-spacing: 0.15em;
-    font-size: 46px;
-    color: #14b6b2;
+.work1 span {
+    font-size: 22px;
+    line-height: 1.4em;
     text-align: center;
-    margin: 13% auto 3%;
-    font-family: Helvetica, sans-serif
+    color: #002D56;
+    width: 80%;
+    margin-bottom: 1%;
+}
+
+.risk {
+    background: white;
+    width: 53%;
+    padding-bottom: 2%;
+}
+
+.green {
+    color: #002D56;
+    font-size: 32px;
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+
+.green b {
+    color: #0BB6B2;
 }
 
 .pricing-email p {
@@ -330,147 +329,6 @@ b {
     text-align: center;
     margin: 13% auto 3%;
     font-family: Helvetica, sans-serif
-}
-
-.price-content {
-    width: 53%;
-    color: #00305B;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-.content {
-    padding: 1% 6% 2% 5%;
-    background: #ffffff;
-    font-size: 17px;
-}
-
-.blue-back {
-    background-color: #14b6b2;
-    color: white;
-    letter-spacing: 0.08em;
-    font-size: 24px;
-    text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-radius: 10px 10px 0 0;
-}
-
-.blue-back p {
-    margin: 5px 0px 6px 0;
-}
-
-.year {
-    font-size: 26px;
-    text-align: center;
-    color: #002D5C;
-    line-height: 1.5em;
-    align-content: center;
-    font-family: Helvetica, sans-serif !important;
-    margin: 1%;
-}
-
-.patients {
-    font-size: 20px;
-}
-
-ul {
-    margin-top: 1%;
-}
-
-.title-ul {
-    margin-bottom: 1%;
-    color: #00305B;
-}
-
-.price {
-    min-height: 100% !important;
-}
-
-.transparent {
-    color: transparent;
-}
-
-.cards {
-    width: 53%;
-    margin-top: 1%;
-}
-
-.card {
-    width: 100%;
-    margin-top: 2%;
-}
-
-.number {
-    background-color: #1b3954;
-    height: 320px;
-    border-radius: 10px 0 0 10px;
-}
-
-.number p {
-    width: 100%;
-    color: #14b6b2;
-    font-size: 40px;
-    text-align: center;
-}
-
-.number p b {
-    font-family: Helvetica, sans-serif !important;
-}
-
-
-.card-content {
-    padding: 3% 10% 1% 3%;
-    background: #012240;
-    height: 320px;
-    border-radius: 0 10px 10px 0;
-
-}
-
-.card-content-title {
-    font-size: 32px;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.card-ul {
-    font-size: 22px;
-    color: #FFFFFF;
-    width: 55%;
-    margin: auto;
-    margin-top: 5%;
-}
-
-.sign {
-    margin-top: 4%;
-    background: #FFFFFF;
-    border-radius: 15px;
-    width: 70%;
-}
-
-.sign p {
-    font-size: 24px;
-    color: #071F4E;
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 2%;
-}
-
-.sign button {
-    background: #0BB6B2;
-    border-radius: 15px;
-    border: none;
-    height: 44px;
-    width: 130px;
-    font-size: 16px;
-    color: white;
-    margin-bottom: 4%;
-    margin-top: 1%;
-}
-
-.sign button:hover {
-    background-color: #b3f2ff75;
-    color: #b3f2ff;
 }
 
 .email {
@@ -578,7 +436,6 @@ ul {
     color: #FFFFFF;
     font-size: 28px;
     text-align: center;
-    // width: 80%;
     margin: 1% auto;
 }
 
@@ -610,26 +467,41 @@ ul {
     height: 42px;
 }
 
-@media(max-width:1440px) {
+@media(max-width:1725px) {
+
     .header-height {
         max-width: 80% !important;
-    }
-
-    .title,
-    .title-about,
-    .blocks,
-    .shadow-back,
-    .price-content,
-    .cards {
-        width: 80%;
     }
 
     .media-block-email {
         max-width: 55% !important;
     }
+
+    .title,
+    .title-about,
+    .work,
+    .work1,
+    .risk {
+        width: 80%;
+    }
+
+    .risk {
+        padding-bottom: 4%;
+    }
 }
 
-@media(max-width:1024px) {
+@media(max-width:1152px) {
+
+    .work,
+    .work1 {
+        flex-wrap: wrap;
+    }
+
+    .work div,
+    .work1 div {
+        max-width: 100% !important;
+    }
+
     .menu {
         display: none !important;
     }
@@ -646,113 +518,31 @@ ul {
         max-width: 90% !important;
     }
 
-    .blocks {
-        flex-wrap: wrap;
-    }
-
-    .blocks div {
-        max-width: 100% !important;
-    }
-
-    .card-content {
-        padding: 1% 1% 1% 3%;
-    }
-}
-
-@media(max-width: 768px) {
-
-    .blocks div {
-        flex-wrap: wrap;
-    }
-
-    .blocks div div {
-        max-width: 100% !important;
-    }
-
-    .blocks img {
-        width: 100%;
-    }
-
-    .logo {
-        max-width: 70% !important;
-    }
-
-    .price-content {
-        flex-wrap: wrap
-    }
-
-    .price-content div {
-        max-width: 90% !important;
-        margin: auto;
-    }
-
-    .price-content .blue-back {
-        max-width: 100% !important;
-    }
-
-    .price-content .price {
-        margin-bottom: 3%;
-    }
-
     .media-block-email {
-        max-width: 90% !important;
-    }
-
-    .title-first {
-        font-size: 30px;
-    }
-
-    .card-content-title {
-        font-size: 27px;
-    }
-
-    .card-ul {
-        font-size: 20px;
-        width: 90%;
+        max-width: 75% !important;
     }
 }
 
-@media(max-width:425px) {
-    .site p {
-        font-size: 20px;
+@media(max-width:768px) {
+    .logo {
+        max-width: 284px !important;
     }
 
-    .sign p {
-        font-size: 18px;
-    }
-
-    .blocks div {
-        flex-wrap: wrap;
-    }
-
-    .blocks img {
-        width: 100%;
-    }
-
-    .card-content-title {
-        font-size: 20px;
-    }
-
-    .title,
-    .title-about,
-    .blocks,
-    .shadow-back,
-    .price-content,
-    .cards {
-        width: 95%;
-    }
-
-    .card-ul {
+    .work img,
+    .work1 img {
         width: 90%;
-        padding-left: 10px;
     }
 
-    .title-first {
-        font-size: 23px;
+    .green {
+        font-size: 20px;
     }
 
-    .title-second {
-        font-size: 16px;
+    // .media-block-email {
+    //     max-width: 100% !important
+    // }
+
+    .title {
+        height: 400px;
     }
 
     .block-bigger {
@@ -764,6 +554,59 @@ ul {
     }
 
     .block-textaerea {
-        width: 86%;
+        width: 87%;
+    }
+}
+
+@media(max-width:425px) {
+    .title p {
+        font-size: 30px;
+    }
+
+    .logo {
+        max-width: 260px !important;
+    }
+
+    .title-first {
+        font-size: 20px;
+    }
+
+    .title-second {
+        font-size: 15px;
+    }
+
+    .work span,
+    .work1 span {
+        font-size: 15px;
+    }
+
+    .green {
+        font-size: 18px;
+    }
+
+    .email-about {
+        font-size: 18px;
+    }
+
+    .site {
+        flex-wrap: wrap;
+    }
+
+    .site div {
+        max-width: 70% !important;
+        margin: auto;
+    }
+
+    .site img {
+        margin: auto;
+        margin-bottom: 5%;
+    }
+
+    .site p {
+        font-size: 18px;
+    }
+
+    .title {
+        height: 320px;
     }
 }

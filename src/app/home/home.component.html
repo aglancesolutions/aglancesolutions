@@ -1,5 +1,5 @@
 <div class="header" fxLayout="row" fxFlexFill fxLayoutAlign="center center">
-    <div fxLayout="row" fxLayoutAlign="start center" fxFlex="55%" class="header-height">
+    <div fxLayout="row" fxLayoutAlign="start center" fxFlex="53%" class="header-height">
         <div class="menu-media-burger">
             <div class="hamburger-menu">
                 <input id="menu__toggle" type="checkbox" />
@@ -14,13 +14,16 @@
                         <a class="menu__item" href="#">BLOG</a>
                     </li>
                     <li>
-                        <a class="menu__item" href="#">APPLICATIONS</a>
+                        <a class="menu__item" href="#">+APPLICATIONS</a>
                     </li>
                     <li>
-                        <a class="menu__item" href="#">ACADEMIC</a>
+                        <a class="menu__item hide" href="#" routerLink="/academic">ACADEMIC</a>
                     </li>
                     <li>
-                        <a class="menu__item" href="#">HEALTHCARE</a>
+                        <a class="menu__item hide" href="#" routerLink="/enterprise">ENTERPRISE</a>
+                    </li>
+                    <li>
+                        <a class="menu__item hide" href="#">HEALTHCARE</a>
                     </li>
                     <li>
                         <a class="menu__item" href="#">RESEARCH</a>
@@ -29,7 +32,7 @@
             </div>
         </div>
         <div class="logo" fxFlex="30%">
-            <img src="../../assets/images/logo.png" alt="">
+            <img src="../../assets/images/logologo.webp" alt="">
         </div>
         <div class="menu" fxFlex="70%" fxLayout="row" fxFlexFill fxLayoutAlign="space-around center">
             <a href="" fxFlex="25%" class="focus">
@@ -53,7 +56,7 @@
                     <p>
                         <b i18n>HEALTHCARE</b>
                     </p>
-                    <p>
+                    <p routerLink="/enterprise">
                         <b i18n>ENTERPRISE</b>
                     </p>
                 </div>
@@ -72,10 +75,12 @@
         <div fxFlex="21%" fxLayoutAlign="end center" fxLayout="column" class="content">
             <div>
                 <p class="title">
-                    <span>
-                        <b i18n>OUR</b>
+                    <span class="regular">
+                        IDENTIFY
                     </span>
-                    <span class="regular" i18n> FIRM</span>
+                    <span i18n>
+                        <b>PAIN & DISCOMFORT </b>
+                    </span>
                 </p>
                 <hr>
             </div>
@@ -86,6 +91,14 @@
                 <p>Our software provides an intelligent starting point for understanding, developing and implementing strategies
                     to combat pain..</p>
             </div>
+            <a href="">
+                <button class="btn-link">
+                    <b i18n>
+                        Read more
+                    </b>
+                </button>
+            </a>
+
         </div>
         <div class="paralax"></div>
     </div>
@@ -176,7 +189,7 @@
                 <p class="mapping regular" i18n>
                     A mapping and analytics software
                 </p>
-                <p class="mapping-about" i18n>Navigate Pain software provides insight about pain and discomfort</p>
+                <p class="mapping-about regular" i18n>Navigate Pain software provides insight about pain and discomfort</p>
                 <button class="button btn-media">
                     <b i18n>Learn More</b>
                 </button>
@@ -185,7 +198,7 @@
         <div fxFlex="50%" fxLayout="row" fxLayoutAlign="start center" class="second-back" fxLayoutAlign="space-around center">
             <div fxLayout="column" fxFlex="23%" class="media-block">
                 <p class="track regular" i18n>Track, locate and report changes</p>
-                <p class="track-about" i18n>Scientifically validated avatars guide precision reports</p>
+                <p class="track-about regular" i18n>Scientifically validated avatars guide precision reports</p>
                 <button class="button btn-media">
                     <b i18n>Learn More</b>
                 </button>
@@ -252,7 +265,7 @@
                 <span class="bold" i18n>
                     OUR
                 </span>
-                <span class="regular" i18n> GOAL</span>
+                <span class="bold" i18n> GOAL</span>
             </p>
             <hr>
             <p>
@@ -302,10 +315,10 @@
 </div>
 
 <div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="email media-margin">
-    <div fxLayoutAlign="center center" fxFlex="40%" fxLayout="column" class="media-block-email">
+    <div fxLayoutAlign="center center" fxFlex="35%" fxLayout="column" class="media-block-email">
         <p class="title-email" i18n>GET IN TOUCH</p>
         <hr>
-        <p class="email-about">We would love to hear from you</p>
+        <p class="email-about regular">We would love to hear from you</p>
         <div fxLayoutAlign="space-between center" class="block-bigger">
             <div>
                 <input type="text" i18n-placeholder placeholder="First Name">
@@ -322,12 +335,13 @@
             <textarea class="block-textaerea" name="" id="" cols="30" rows="10" i18n-placeholder placeholder="Type your message here"></textarea>
         </div>
         <button class="button-submit">Submit</button>
+    </div>
+</div>
 
-        <div fxLayoutAlign="space-around start" class="logos">
-            <img src="../../assets/images/facebook.png" alt="">
-            <img src="../../assets/images/twitter.png" alt="">
-            <img src="../../assets/images/linkdin.png" alt="">
-        </div>
-
+<div class="logos-back" fxLayout="row" fxFlexFill fxLayoutAlign="center start">
+    <div fxLayoutAlign="space-around start" class="logos">
+        <img src="../../assets/images/facebook.png" alt="">
+        <img src="../../assets/images/twitter.png" alt="">
+        <img src="../../assets/images/linkdin.png" alt="">
     </div>
 </div>
