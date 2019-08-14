@@ -202,7 +202,7 @@ b {
 .drop-down p:hover {
     border-top: 3px solid rgba(179, 242, 255, 1);
     line-height: 1.8rem;
-    color: white;
+    color: #0BB6B2;
 }
 
 .background {
@@ -469,8 +469,8 @@ ul {
 }
 
 .sign button:hover {
-    background-color: #b3f2ff75;
-    color: #b3f2ff;
+    background-color: black;
+    // color: #b3f2ff;
 }
 
 .email {
@@ -512,7 +512,11 @@ ul {
 }
 
 .email input::placeholder {
-    color: #00305B;
+    color: #02305b;
+}
+
+.email textarea::placeholder {
+    color: #02305b;
 }
 
 .email input:hover {
@@ -526,25 +530,27 @@ ul {
     border-radius: 5px;
     font-size: 18px;
     border: none;
-    margin-bottom: 3%;
+    margin-bottom: 20px;
     font-style: italic;
 }
 
-.email textarea::placeholder {
-    color: #00305B;
-}
-
 .email textarea:hover {
-    width: 100%;
-    margin-bottom: 2%;
+    height: 120px;
+    margin-bottom: 15px;
+    width: 94%;
 }
 
 .block-bigger {
+    justify-content: space-evenly !important;
     width: 80% !important;
     flex-wrap: wrap;
 }
 
 .block-bigger div {
+    width: 49%;
+}
+
+.block-bigger div:hover {
     width: 50%;
 }
 
@@ -556,14 +562,17 @@ ul {
 
 .button-submit {
     background: #0BB6B2;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
-    height: 44px;
-    width: 130px;
-    font-size: 16px;
+    height: 50px;
+    width: 145px;
+    font-size: 18px;
     color: white;
-    margin-bottom: 4%;
-    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+.button-submit:hover {
+    background: black;
 }
 
 .site {

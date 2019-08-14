@@ -592,30 +592,36 @@ hr {
 
 .email textarea {
     padding-left: 24px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 18px;
     border: none;
-    margin-bottom: 3%;
+    margin-bottom: 20px;
     font-style: italic;
 }
 
 .email textarea:hover {
-    width: 95%;
-    margin-bottom: 2%;
+    height: 120px;
+    margin-bottom: 15px;
+    width: 94%;
 }
 
 .block-bigger {
+    justify-content: space-evenly !important;
     width: 80% !important;
     flex-wrap: wrap;
 }
 
 .block-bigger div {
+    width: 49%;
+}
+
+.block-bigger div:hover {
     width: 50%;
 }
 
 .block-textaerea {
     padding-top: 15px;
-    width: 94%;
+    width: 93%;
     height: 115px;
 }
 
@@ -664,7 +670,7 @@ hr {
 .drop-down p:hover {
     border-top: 3px solid rgba(179, 242, 255, 1);
     line-height: 1.8rem;
-    color: white;
+    color: #0BB6B2;
 }
 
 @media(max-width:1640px) {
@@ -676,10 +682,6 @@ hr {
 
     .media-block-people {
         max-width: 60% !important;
-    }
-
-    .email textarea {
-        height: 140px;
     }
 }
 
@@ -718,7 +720,7 @@ hr {
     }
 
     .block-bigger div {
-        width: 50%;
+        width: 49%;
     }
 
     .font-1 {
@@ -729,8 +731,12 @@ hr {
         padding-bottom: 3%;
     }
 
-    .logos {
-        width: 30%;
+    // .logos {
+    //     width: 30%;
+    // }
+
+    .block-textaerea {
+        width: 90%;
     }
 }
 
@@ -756,9 +762,9 @@ hr {
         max-width: 45% !important;
     }
 
-    .logos {
-        width: 20%;
-    }
+    // .logos {
+    //     width: 20%;
+    // }
 
     .media-block-email {
         max-width: 90% !important;
@@ -845,8 +851,6 @@ hr {
         font-size: 33px;
         line-height: 3rem;
     }
-
-
 }
 
 @media(max-width: 768px) {
@@ -901,9 +905,9 @@ hr {
         width: 100%
     }
 
-    .logos {
-        width: 30%;
-    }
+    // .logos {
+    //     width: 30%;
+    // }
 
     .block-textaerea {
         width: 88%;
@@ -980,7 +984,4 @@ hr {
         padding-bottom: 2%;
     }
 
-    .logos {
-        width: 70%;
-    }
 }

@@ -1,5 +1,5 @@
 <div class="header" fxLayout="row" fxFlexFill fxLayoutAlign="center center">
-    <div fxLayout="row" fxLayoutAlign="start center" fxFlex="55%" class="header-height">
+    <div fxLayout="row" fxLayoutAlign="start center" fxFlex="53%" class="header-height">
         <div class="menu-media-burger">
             <div class="hamburger-menu">
                 <input id="menu__toggle" type="checkbox" />
@@ -14,13 +14,16 @@
                         <a class="menu__item" href="#">BLOG</a>
                     </li>
                     <li>
-                        <a class="menu__item" href="#">APPLICATIONS</a>
+                        <a class="menu__item" href="#">+APPLICATIONS</a>
                     </li>
                     <li>
-                        <a class="menu__item" href="#">ACADEMIC</a>
+                        <a class="menu__item hide" routerLink="/academic">ACADEMIC</a>
                     </li>
                     <li>
-                        <a class="menu__item" href="#">HEALTHCARE</a>
+                        <a class="menu__item hide" routerLink="/enterprise">ENTERPRISE</a>
+                    </li>
+                    <li>
+                        <a class="menu__item hide" routerLink="/healthcare">HEALTHCARE</a>
                     </li>
                     <li>
                         <a class="menu__item" href="#">RESEARCH</a>
@@ -32,7 +35,7 @@
             <img src="../../assets/images/logologo.webp" alt="">
         </div>
         <div class="menu" fxFlex="70%" fxLayout="row" fxFlexFill fxLayoutAlign="space-around center">
-            <a href="" fxFlex="25%" class="focus">
+            <a href="" fxFlex="25%">
                 <span>
                     <b i18n>HOME</b>
                 </span>
@@ -50,10 +53,10 @@
                     <p routerLink="/academic">
                         <b i18n>ACADEMIC</b>
                     </p>
-                    <p>
+                    <p routerLink="/healthcare">
                         <b i18n>HEALTHCARE</b>
                     </p>
-                    <p>
+                    <p routerLink="/enterprise">
                         <b i18n>ENTERPRISE</b>
                     </p>
                 </div>
