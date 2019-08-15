@@ -154,7 +154,7 @@ b {
 
 .menu {
     border-top: 2px solid rgba(179, 242, 255, 1);
-    margin-left: 7%;
+    margin-left: 20%;
 }
 
 .menu a {
@@ -233,8 +233,8 @@ b {
 }
 
 .title p {
-    font-size: 46px;
-    letter-spacing: 0.2em;
+    font-size: 48px;
+    letter-spacing: 0.3em;
     color: #FFFFFF;
     text-align: center;
 }
@@ -367,6 +367,11 @@ b {
     padding-bottom: 1%;
 }
 
+.email hr {
+    width: 10%;
+    border-bottom: 5px solid white;
+}
+
 .email-about {
     letter-spacing: 0.08em;
     font-size: 22px;
@@ -375,6 +380,7 @@ b {
     line-height: 1.2em;
     font-weight: bold;
     margin-bottom: 5%;
+    width: 85%;
 }
 
 .title-email {
@@ -444,8 +450,9 @@ b {
 
 .block-textaerea {
     padding-top: 15px;
-    width: 93%;
+    width: 92%;
     height: 115px;
+    margin-left: -2%;
 }
 
 .button-submit {
@@ -480,7 +487,7 @@ b {
 
 .site hr {
     border-bottom: 3px solid white;
-    width: 7%;
+    width: 5%;
     margin-bottom: 3%;
 }
 
@@ -535,6 +542,7 @@ b {
     }
 
     .logo {
+        max-width: 265px !important;
         margin: auto;
     }
 
@@ -545,6 +553,15 @@ b {
     .font-color h1 {
         width: 85%;
     }
+
+    .block-textaerea {
+        width: 91%;
+        margin-left: -3%;
+    }
+
+    .media-block-email {
+        max-width: 90% !important;
+    }
 }
 
 @media(max-width:768px) {
@@ -553,7 +570,8 @@ b {
     }
 
     .logo {
-        max-width: 284px !important;
+        max-width: 265px !important;
+        margin: auto;
     }
 
     .title {
@@ -585,6 +603,19 @@ b {
 
     .site img {
         margin: auto;
+    }
+
+    .media-block-email {
+        flex-wrap: wrap;
+    }
+
+    .media-block-email div {
+        width: 100%;
+    }
+
+    .block-textaerea {
+        width: 86%;
+        margin-left: -8%;
     }
 }
 

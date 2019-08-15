@@ -9,11 +9,6 @@
 }
 
 @font-face {
-    font-family: ralewayBoldExtra;
-    src: url(../../assets/fonts/Raleway-Bold.ttf)
-}
-
-@font-face {
     font-family: ralewayRegular;
     src: url(../../assets/fonts/Raleway-Regular.ttf)
 }
@@ -29,11 +24,11 @@ span {
 
 b,
 .bold {
-    font-family: ralewayBoldExtra !important;
+    font-family: ralewayBold !important;
 }
 
-.semi-bold {
-    font-family: ralewayBold !important;
+h2 {
+    letter-spacing: 0.3em;
 }
 
 // menu-burger
@@ -164,7 +159,7 @@ b,
 
 .menu {
     border-top: 2px solid rgba(179, 242, 255, 1);
-    margin-left: 7%;
+    margin-left: 20%;
 }
 
 .menu a {
@@ -189,13 +184,13 @@ b,
 
 .menu a:hover {
     color: #0BB6B2;
-    border-top: 3px solid rgba(179, 242, 255, 1);
+    border-top: 4px solid rgba(179, 242, 255, 1);
     line-height: 48px;
 }
 
 .focus {
     color: #0BB6B2 !important;
-    border-top: 3px solid rgba(179, 242, 255, 1) !important;
+    border-top: 4px solid rgba(179, 242, 255, 1) !important;
     line-height: 48px !important;
 }
 
@@ -206,7 +201,7 @@ b,
     background-size: auto;
     background-repeat: no-repeat;
     width: 50%;
-    height: 681px;
+    height: 756px;
 }
 
 .title {
@@ -214,7 +209,7 @@ b,
     line-height: 3rem;
     text-align: center;
     color: #0BB6B2;
-    margin-top: 25%;
+    margin-top: 40%;
 }
 
 hr {
@@ -297,25 +292,30 @@ hr {
 .academic-hover,
 .health-hover,
 .enterprise-hover {
-    width: 50%;
+    width: 74%;
     color: white;
     text-align: center;
     display: none !important;
+    font-family: ralewayRegular !important;
+    font-size: 22px;
 }
 
 .academic-hover p {
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-family: ralewayRegular !important;
 }
 
 .enterprise-hover p {
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-family: ralewayRegular !important;
 }
 
 .health-hover p {
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-family: ralewayRegular !important;
 }
 
 .academic-hover hr {
@@ -343,7 +343,7 @@ hr {
     font-size: 16px;
     color: white;
     margin-top: 20%;
-    margin-bottom: 20%;
+    // margin-bottom: 100px;
 }
 
 .btn-link:hover {
@@ -438,7 +438,7 @@ hr {
 .track {
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    font-size: 26px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -509,10 +509,11 @@ hr {
 .people img {
     border-radius: 50%;
     height: 200px;
+    margin-bottom: 5%;
 }
 
 .blue {
-    font-size: 26px;
+    font-size: 22px;
     color: #0BB6B2;
     text-align: center;
     font-weight: bold;
@@ -522,15 +523,17 @@ hr {
 .blue-small {
     color: #0BB6B2;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     width: 80%;
 }
 
 .white {
     color: white;
     text-align: center;
-    font-size: 15px;
-    width: 73%;
+    font-size: 16px;
+    width: 75%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .email {
@@ -621,8 +624,9 @@ hr {
 
 .block-textaerea {
     padding-top: 15px;
-    width: 93%;
+    width: 92%;
     height: 115px;
+    margin-left: -2%;
 }
 
 .button-submit {
@@ -701,6 +705,8 @@ hr {
     .content {
         margin-left: 10%;
         max-width: 35% !important;
+        // padding-bottom: 10%;
+        margin-bottom: 150px;
     }
 
     .first-image,
@@ -735,9 +741,9 @@ hr {
     //     width: 30%;
     // }
 
-    .block-textaerea {
-        width: 90%;
-    }
+    // .block-textaerea {
+    //     width: 90%;
+    // }
 }
 
 @media(max-width:1025px) {
@@ -751,6 +757,7 @@ hr {
 
     .logo {
         margin: auto;
+        max-width: 265px !important;
     }
 
     .header-height {
@@ -844,7 +851,8 @@ hr {
     }
 
     .block-textaerea {
-        width: 92%;
+        width: 91%;
+        margin-left: -3%;
     }
 
     .font-2 .font-title {
@@ -890,7 +898,16 @@ hr {
     }
 
     .media-block-email {
-        max-width: 80% !important;
+        flex-wrap: wrap;
+    }
+
+    .media-block-email div {
+        width: 100%;
+    }
+
+    .block-textaerea {
+        width: 86%;
+        margin-left: -8%;
     }
 
     .font-1 {
@@ -904,14 +921,6 @@ hr {
     .block-bigger div {
         width: 100%
     }
-
-    // .logos {
-    //     width: 30%;
-    // }
-
-    .block-textaerea {
-        width: 88%;
-    }
 }
 
 @media(max-width: 425px) {
@@ -921,7 +930,7 @@ hr {
     }
 
     .logo {
-        max-width: 70% !important;
+        max-width: 265px !important;
         margin: auto;
     }
 
@@ -948,10 +957,10 @@ hr {
         max-width: 100% !important;
     }
 
-    .block-textaerea {
-        width: 87%;
-        height: 125px !important;
-    }
+    // .block-textaerea {
+    //     width: 87%;
+    //     height: 125px !important;
+    // }
 
     .media-block-email {
         max-width: 100% !important;

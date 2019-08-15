@@ -20,13 +20,13 @@
                         <a class="menu__item hide" href="#" routerLink="/academic">ACADEMIC</a>
                     </li>
                     <li>
-                        <a class="menu__item hide focus-a" href="#" routerLink="/enterprise">ENTERPRISE</a>
+                        <a class="menu__item hide" href="#" routerLink="/enterprise">ENTERPRISE</a>
                     </li>
                     <li>
-                        <a class="menu__item hide" href="#" routerLink="/healthcare">HEALTHCARE</a>
+                        <a class="menu__item hide focus-a" href="#" routerLink="/healthcare">HEALTHCARE</a>
                     </li>
                     <li>
-                        <a class="menu__item" href="#">RESEARCH</a>
+                        <a class="menu__item" href="#" routerLink="/research">RESEARCH</a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
                     <b i18n>BLOG</b>
                 </span>
             </a>
-            <a fxFlex="25%" fxLayout="column" class="span-app">
+            <a fxFlex="25%" fxLayout="column" class="span-app focus">
                 <span>
                     <b i18n>APPLICATIONS</b>
                 </span>
@@ -53,16 +53,16 @@
                     <p routerLink="/academic">
                         <b i18n>ACADEMIC</b>
                     </p>
-                    <p routerLink="/healthcare">
-                        <b i18n>HEALTHCARE</b>
-                    </p>
                     <p routerLink="/enterprise">
                         <b i18n>ENTERPRISE</b>
+                    </p>
+                    <p routerLink="/healthcare">
+                        <b i18n>HEALTHCARE</b>
                     </p>
                 </div>
             </a>
             <a href="" fxFlex="25%">
-                <span>
+                <span routerLink="/research">
                     <b i18n>RESEARCH</b>
                 </span>
             </a>
@@ -137,7 +137,8 @@
                     <b>GET IN TOUCH</b>
                 </p>
             </div>
-            <p class="email-about regular">Want to learn more? Contact us about tailored solutions and quotes to match the size and needs of your project.</p>
+            <hr>
+            <p class="email-about regular">Tailored solutions and quotes to match the size and needs of your organization.</p>
             <div fxLayoutAlign="space-between center" class="block-bigger">
                 <div>
                     <input type="text" i18n-placeholder placeholder="First Name">

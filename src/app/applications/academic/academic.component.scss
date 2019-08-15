@@ -13,14 +13,12 @@
     src: url(../../../assets/fonts/Raleway-Regular.ttf)
 }
 
-.regular,
-li {
+.regular {
     font-family: ralewayRegular !important;
 }
 
 p,
-span,
-    {
+span {
     font-family: raleway, sans-serif;
 }
 
@@ -148,7 +146,7 @@ b {
 
 .menu {
     border-top: 2px solid rgba(179, 242, 255, 1);
-    margin-left: 7%;
+    margin-left: 20%;
 }
 
 .menu a {
@@ -226,8 +224,8 @@ b {
 }
 
 .title p {
-    font-size: 46px;
-    letter-spacing: 0.2em;
+    font-size: 48px;
+    letter-spacing: 0.3em;
     color: #FFFFFF;
     text-align: center;
 }
@@ -270,7 +268,7 @@ b {
 .blocks {
     width: 53%;
     background: #0BB6B2;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 
 .block-title {
@@ -343,6 +341,7 @@ b {
     padding: 1% 6% 2% 5%;
     background: #ffffff;
     font-size: 17px;
+    border-radius: 0 0 10px 10px;
 }
 
 .blue-back {
@@ -489,6 +488,11 @@ ul {
     margin-bottom: 5%;
 }
 
+.email hr {
+    width: 10%;
+    border-bottom: 5px solid white;
+}
+
 .title-email {
     color: #FFFFFF;
     text-align: center;
@@ -556,8 +560,9 @@ ul {
 
 .block-textaerea {
     padding-top: 15px;
-    width: 93%;
+    width: 92%;
     height: 115px;
+    margin-left: -2%;
 }
 
 .button-submit {
@@ -593,7 +598,7 @@ ul {
 
 .site hr {
     border-bottom: 3px solid white;
-    width: 7%;
+    width: 5%;
     margin-bottom: 3%;
 }
 
@@ -648,6 +653,7 @@ ul {
     }
 
     .logo {
+        max-width: 265px !important;
         margin: auto;
     }
 
@@ -666,6 +672,15 @@ ul {
     .card-content {
         padding: 1% 1% 1% 3%;
     }
+
+    .block-textaerea {
+        width: 91%;
+        margin-left: -3%;
+    }
+
+    .media-block-email {
+        max-width: 90% !important;
+    }
 }
 
 @media(max-width: 768px) {
@@ -680,10 +695,6 @@ ul {
 
     .blocks img {
         width: 100%;
-    }
-
-    .logo {
-        max-width: 70% !important;
     }
 
     .price-content {
@@ -704,7 +715,16 @@ ul {
     }
 
     .media-block-email {
-        max-width: 90% !important;
+        flex-wrap: wrap;
+    }
+
+    .media-block-email div {
+        width: 100%;
+    }
+
+    .block-textaerea {
+        width: 86%;
+        margin-left: -8%;
     }
 
     .title-first {
@@ -770,9 +790,5 @@ ul {
 
     .block-bigger div {
         width: 100%;
-    }
-
-    .block-textaerea {
-        width: 86%;
     }
 }

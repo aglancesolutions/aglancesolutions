@@ -26,7 +26,7 @@
                         <a class="menu__item hide" href="#" routerLink="/healthcare">HEALTHCARE</a>
                     </li>
                     <li>
-                        <a class="menu__item" href="#">RESEARCH</a>
+                        <a class="menu__item" href="#" routerLink="/research">RESEARCH</a>
                     </li>
                 </ul>
             </div>
@@ -53,15 +53,15 @@
                     <p routerLink="/academic">
                         <b i18n>ACADEMIC</b>
                     </p>
-                    <p routerLink="/healthcare">
-                        <b i18n>HEALTHCARE</b>
-                    </p>
                     <p routerLink="/enterprise">
                         <b i18n>ENTERPRISE</b>
                     </p>
+                    <p routerLink="/healthcare">
+                        <b i18n>HEALTHCARE</b>
+                    </p>
                 </div>
             </a>
-            <a href="" fxFlex="25%">
+            <a routerLink="/research" fxFlex="25%">
                 <span>
                     <b i18n>RESEARCH</b>
                 </span>
@@ -117,9 +117,9 @@
             </div>
             <div class="academic-hover-back" fxLayout="column" fxLayoutAlign="center center">
                 <div class="academic-hover">
-                    <h3>
+                    <h2>
                         <b i18n>ACADEMIC</b>
-                    </h3>
+                    </h2>
                     <hr>
                     <p i18n>Track, map and analyse pain and discomfort patterns to increase our understanding of mechanisms, drivers,
                         and influencing factors</p>
@@ -142,9 +142,9 @@
             </div>
             <div class="enterprise-hover-back" fxLayout="column" fxLayoutAlign="center center">
                 <div class="enterprise-hover">
-                    <h3>
+                    <h2>
                         <b i18n>ENTERPRISE</b>
-                    </h3>
+                    </h2>
                     <hr>
                     <p i18n>Receive company reports detailing common pain and discomfort patterns, intelligent starting points for
                         preventing work-related pain, and suggestions for for promoting health and well-being of employees</p>
@@ -168,9 +168,9 @@
             </div>
             <div class="health-hover-back" fxLayout="column" fxLayoutAlign="center center">
                 <div class="health-hover">
-                    <h3>
-                        <b i18n>HEALTH CARE</b>
-                    </h3>
+                    <h2>
+                        <b i18n>HEALTHCARE</b>
+                    </h2>
                     <hr>
                     <p i18n>Connect and communicate with patients and clients on a daily, weekly or monthly basis by tracking, mapping
                         and easily assessing changes in their pain and discomfort patterns</p>
@@ -185,9 +185,10 @@
     <div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="flex-wrap media-margin">
         <div fxFlex="50%" fxLayout="row" fxLayoutAlign="space-around center" class="first-back">
             <div class="first-image"></div>
-            <div fxLayout="column" fxFlex="23%" class="media-block">
-                <p class="mapping regular" i18n>
-                    A mapping and analytics software
+            <div fxLayout="column" fxFlex="20%" class="media-block">
+                <p class="mapping" i18n>
+                    <b>A mapping and analytics software</b>
+
                 </p>
                 <p class="mapping-about regular" i18n>Navigate Pain software provides insight about pain and discomfort</p>
                 <button class="button btn-media">
@@ -196,8 +197,10 @@
             </div>
         </div>
         <div fxFlex="50%" fxLayout="row" fxLayoutAlign="start center" class="second-back" fxLayoutAlign="space-around center">
-            <div fxLayout="column" fxFlex="23%" class="media-block">
-                <p class="track regular" i18n>Track, locate and report changes</p>
+            <div fxLayout="column" fxFlex="20%" class="media-block">
+                <p class="track" i18n>
+                    <b>Track, locate and report changes</b>
+                </p>
                 <p class="track-about regular" i18n>Scientifically validated avatars guide precision reports</p>
                 <button class="button btn-media">
                     <b i18n>Learn More</b>
@@ -285,7 +288,7 @@
 </div>
 
 <div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="people media-margin">
-    <div fxLayoutAlign="center start" fxFlex="50%" class="media-block-people">
+    <div fxLayoutAlign="center start" fxFlex="55%" class="media-block-people">
         <div fxLayoutAlign="center center" fxLayout="column">
             <img src="../../assets/images/Shellie_edited_edited.webp" alt="">
             <p class="blue">Shellie A. Boudreau</p>

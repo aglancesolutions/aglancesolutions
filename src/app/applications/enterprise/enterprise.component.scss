@@ -154,7 +154,7 @@ b {
 
 .menu {
     border-top: 2px solid rgba(179, 242, 255, 1);
-    margin-left: 7%;
+    margin-left: 20%;
 }
 
 .menu a {
@@ -232,8 +232,8 @@ b {
 }
 
 .title p {
-    font-size: 46px;
-    letter-spacing: 0.2em;
+    font-size: 48px;
+    letter-spacing: 0.3em;
     color: #FFFFFF;
     text-align: center;
 }
@@ -244,16 +244,16 @@ b {
 }
 
 .title-first {
-    font-size: 36px;
+    font-size: 32px;
     letter-spacing: 0.05em;
     color: #14b6b2;
     text-align: center;
-    width: 85%;
+    width: 80%;
     margin: 3% auto 1%;
 }
 
 .title-hr {
-    border-top: 3px solid #14b6b2;
+    border-top: 5px solid #14b6b2;
     width: 5%;
 }
 
@@ -331,6 +331,11 @@ b {
     font-family: Helvetica, sans-serif
 }
 
+.email hr {
+    width: 10%;
+    border-bottom: 5px solid white;
+}
+
 .email {
     background: #002E57;
     padding-top: 3%;
@@ -345,6 +350,7 @@ b {
     line-height: 1.2em;
     font-weight: bold;
     margin-bottom: 5%;
+    width: 85%;
 }
 
 .title-email {
@@ -414,8 +420,9 @@ b {
 
 .block-textaerea {
     padding-top: 15px;
-    width: 93%;
+    width: 92%;
     height: 115px;
+    margin-left: -2%;
 }
 
 .button-submit {
@@ -450,7 +457,7 @@ b {
 
 .site hr {
     border-bottom: 3px solid white;
-    width: 7%;
+    width: 5%;
     margin-bottom: 3%;
 }
 
@@ -520,6 +527,7 @@ b {
     }
 
     .logo {
+        max-width: 265px !important;
         margin: auto;
     }
 
@@ -534,7 +542,7 @@ b {
 
 @media(max-width:768px) {
     .logo {
-        max-width: 284px !important;
+        max-width: 265px !important;
     }
 
     .work img,
@@ -545,10 +553,6 @@ b {
     .green {
         font-size: 20px;
     }
-
-    // .media-block-email {
-    //     max-width: 100% !important
-    // }
 
     .title {
         height: 400px;

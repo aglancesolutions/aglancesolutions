@@ -8,7 +8,7 @@
                 </label>
                 <ul class="menu__box">
                     <li>
-                        <a class="menu__item focus-a" href="#">HOME</a>
+                        <a class="menu__item" href="#">HOME</a>
                     </li>
                     <li>
                         <a class="menu__item" href="#">BLOG</a>
@@ -17,7 +17,7 @@
                         <a class="menu__item" href="#">+APPLICATIONS</a>
                     </li>
                     <li>
-                        <a class="menu__item hide" routerLink="/academic">ACADEMIC</a>
+                        <a class="menu__item hide focus-a" routerLink="/academic">ACADEMIC</a>
                     </li>
                     <li>
                         <a class="menu__item hide" routerLink="/enterprise">ENTERPRISE</a>
@@ -26,7 +26,7 @@
                         <a class="menu__item hide" routerLink="/healthcare">HEALTHCARE</a>
                     </li>
                     <li>
-                        <a class="menu__item" href="#">RESEARCH</a>
+                        <a class="menu__item" routerLink="/research">RESEARCH</a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
                     <b i18n>BLOG</b>
                 </span>
             </a>
-            <a fxFlex="25%" fxLayout="column" class="span-app">
+            <a fxFlex="25%" fxLayout="column" class="span-app focus">
                 <span>
                     <b i18n>APPLICATIONS</b>
                 </span>
@@ -53,16 +53,16 @@
                     <p routerLink="/academic">
                         <b i18n>ACADEMIC</b>
                     </p>
-                    <p routerLink="/healthcare">
-                        <b i18n>HEALTHCARE</b>
-                    </p>
                     <p routerLink="/enterprise">
                         <b i18n>ENTERPRISE</b>
+                    </p>
+                    <p routerLink="/healthcare">
+                        <b i18n>HEALTHCARE</b>
                     </p>
                 </div>
             </a>
             <a href="" fxFlex="25%">
-                <span>
+                <span routerLink="/research">
                     <b i18n>RESEARCH</b>
                 </span>
             </a>
@@ -396,10 +396,11 @@
     <div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="email media-margin">
         <div fxLayoutAlign="center center" fxFlex="40%" fxLayout="column" class="media-block-email">
             <div class="pricing-email" fxLayoutAlign="center center">
-                <p fxFlex="100%">
+                <p fxFlex="100%" fxLayout="column">
                     <b>GET IN TOUCH</b>
                 </p>
             </div>
+            <hr>
             <p class="email-about regular">Want to learn more? Contact us about tailored solutions and quotes to match the size and needs of your project.</p>
             <div fxLayoutAlign="space-between center" class="block-bigger">
                 <div>
