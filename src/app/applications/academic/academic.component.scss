@@ -13,6 +13,7 @@
     src: url(../../../assets/fonts/Raleway-Regular.ttf)
 }
 
+ul,
 .regular {
     font-family: ralewayRegular !important;
 }
@@ -187,7 +188,7 @@ b {
     padding-top: 3px;
     position: absolute;
     top: 50px;
-    width: 9%;
+    width: 10%;
 }
 
 .drop-down p {
@@ -465,10 +466,11 @@ ul {
     color: white;
     margin-bottom: 4%;
     margin-top: 1%;
+    transition: 0.4s;
 }
 
 .sign button:hover {
-    background-color: black;
+    background-color: #333;
     // color: #b3f2ff;
 }
 
@@ -574,10 +576,11 @@ ul {
     font-size: 18px;
     color: white;
     margin-bottom: 10%;
+    transition: 0.4s;
 }
 
 .button-submit:hover {
-    background: black;
+    background: #333;
 }
 
 .site {
@@ -616,12 +619,12 @@ ul {
 .logos {
     margin-top: 1%;
     margin-bottom: 7%;
-    width: 150px;
+    width: 184px;
 }
 
 .logos img {
-    width: 42px;
-    height: 42px;
+    width: 48px;
+    height: 48px;
 }
 
 @media(max-width:1440px) {

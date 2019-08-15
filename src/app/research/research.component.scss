@@ -200,7 +200,7 @@ h2 {
     padding-top: 3px;
     position: absolute;
     top: 50px;
-    width: 9%;
+    width: 10%;
 }
 
 .drop-down p {
@@ -324,6 +324,11 @@ h2 {
     border-radius: 20px;
     color: #FFFFFF;
     font-size: 16px;
+    transition: 0.4s;
+}
+
+.navigate:hover {
+    background: #333;
 }
 
 .logos-back {
@@ -333,7 +338,7 @@ h2 {
 .logos {
     margin-top: 1%;
     margin-bottom: 7%;
-    width: 195px;
+    width: 184px;
 }
 
 .logos img {
@@ -342,14 +347,14 @@ h2 {
 }
 
 @media(max-width: 1550px) {
-    .menu {
-        margin-left: 7%;
-    }
+    // .menu {
+    //     margin-left: 7%;
+    // }
 }
 
 @media(max-width:1440px) {
     .header-height {
-        max-width: 78% !important;
+        max-width: 80% !important;
     }
 
     .header-font-second p {

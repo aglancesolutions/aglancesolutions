@@ -343,11 +343,12 @@ hr {
     font-size: 16px;
     color: white;
     margin-top: 20%;
+    transition: 0.4s;
     // margin-bottom: 100px;
 }
 
 .btn-link:hover {
-    background: black;
+    background: #333;
 }
 
 .academic-hover button {
@@ -358,6 +359,7 @@ hr {
     width: 130px;
     font-size: 16px;
     color: white;
+    transition: 0.4s;
 }
 
 .enterprise-hover button {
@@ -368,6 +370,7 @@ hr {
     width: 130px;
     font-size: 16px;
     color: white;
+    transition: 0.4s;
 }
 
 .health-hover button {
@@ -462,6 +465,11 @@ hr {
     font-size: 16px;
     color: white;
     margin: auto;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background-color: #333;
 }
 
 .font {
@@ -638,6 +646,11 @@ hr {
     font-size: 18px;
     color: white;
     margin-bottom: 10%;
+    transition: 0.4s;
+}
+
+.button-submit:hover {
+    background-color: #333;
 }
 
 .logos-back {
@@ -647,12 +660,12 @@ hr {
 .logos {
     margin-top: 1%;
     margin-bottom: 7%;
-    width: 150px;
+    width: 184px;
 }
 
 .logos img {
-    width: 42px;
-    height: 42px;
+    width: 48px;
+    height: 48px;
 }
 
 .drop-down {
@@ -661,7 +674,7 @@ hr {
     padding-top: 3px;
     position: absolute;
     top: 50px;
-    width: 9%;
+    width: 10%;
 }
 
 .drop-down p {
@@ -699,7 +712,7 @@ hr {
     }
 
     .header-height {
-        max-width: 70% !important;
+        max-width: 80% !important;
     }
 
     .content {

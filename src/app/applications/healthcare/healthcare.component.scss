@@ -196,7 +196,7 @@ b {
     padding-top: 3px;
     position: absolute;
     top: 50px;
-    width: 9%;
+    width: 10%;
 }
 
 .drop-down p {
@@ -464,10 +464,11 @@ b {
     font-size: 18px;
     color: white;
     margin-bottom: 10%;
+    transition: 0.4s;
 }
 
 .button-submit:hover {
-    background: black;
+    background: #333;
 }
 
 .site {
@@ -505,17 +506,17 @@ b {
 .logos {
     margin-top: 1%;
     margin-bottom: 7%;
-    width: 150px;
+    width: 184px;
 }
 
 .logos img {
-    width: 42px;
-    height: 42px;
+    width: 48px;
+    height: 48px;
 }
 
 @media(max-width:1440px) {
     .header-height {
-        max-width: 77% !important;
+        max-width: 80% !important;
     }
 
     .title,
