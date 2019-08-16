@@ -196,17 +196,17 @@ h2 {
 
 .drop-down {
     display: none !important;
-    background: #ffffff6e;
+    background: #ffffffe8;
     padding-top: 3px;
     position: absolute;
     top: 50px;
-    width: 10%;
+    width: 185px;
 }
 
 .drop-down p {
     line-height: 2rem;
     border-top: 1px solid rgba(179, 242, 255, 1);
-    color: white;
+    color: #0BB6B2;
     text-decoration: none;
 }
 
@@ -346,15 +346,13 @@ h2 {
     height: 48px;
 }
 
-@media(max-width: 1550px) {
-    // .menu {
-    //     margin-left: 7%;
-    // }
-}
-
 @media(max-width:1440px) {
     .header-height {
         max-width: 80% !important;
+    }
+
+    .menu {
+        margin-left: 15%;
     }
 
     .header-font-second p {
