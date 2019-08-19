@@ -1,67 +1,3 @@
-<div class="header" fxLayout="row" fxFlexFill fxLayoutAlign="center center">
-    <div fxLayout="row" fxLayoutAlign="start center" fxFlex="55%" class="header-height">
-        <div class="menu-media-burger">
-            <div class="hamburger-menu">
-                <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
-                <ul class="menu__box">
-                    <li>
-                        <a class="menu__item" href="#">HOME</a>
-                    </li>
-                    <li>
-                        <a class="menu__item">+APPLICATIONS</a>
-                    </li>
-                    <li>
-                        <a class="menu__item hide" routerLink="/academic">ACADEMIC</a>
-                    </li>
-                    <li>
-                        <a class="menu__item hide" routerLink="/enterprise">ENTERPRISE</a>
-                    </li>
-                    <li>
-                        <a class="menu__item hide focus-a" routerLink="/healthcare">HEALTHCARE</a>
-                    </li>
-                    <li>
-                        <a class="menu__item" routerLink="/research">RESEARCH</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="logo" fxFlex="30%">
-            <img src="../../assets/images/logologo.webp" alt="">
-        </div>
-        <div class="menu" fxFlex="70%" fxLayout="row" fxFlexFill fxLayoutAlign="space-around center">
-            <a href="" fxFlex="185px">
-                <span>
-                    <b i18n>HOME</b>
-                </span>
-            </a>
-            <a fxFlex="185px" fxLayout="column" class="span-app focus">
-                <span>
-                    <b i18n>APPLICATIONS</b>
-                </span>
-                <div fxLayout="column" class="drop-down">
-                    <p routerLink="/academic">
-                        <b i18n>ACADEMIC</b>
-                    </p>
-                    <p routerLink="/enterprise">
-                        <b i18n>ENTERPRISE</b>
-                    </p>
-                    <p routerLink="/healthcare">
-                        <b i18n>HEALTHCARE</b>
-                    </p>
-                </div>
-            </a>
-            <a routerLink="/research" fxFlex="185px">
-                <span>
-                    <b i18n>RESEARCH</b>
-                </span>
-            </a>
-        </div>
-    </div>
-</div>
-
 <div class="background" fxLayout="column" fxFlexFill fxLayoutAlign="center center">
     <div class="title" fxLayoutAlign="center center">
         <p>
@@ -133,18 +69,18 @@
             <p class="email-about regular">Tailored solutions and quotes to match the size and needs of your organization.</p>
             <div fxLayoutAlign="space-between center" class="block-bigger">
                 <div>
-                    <input type="text" i18n-placeholder placeholder="First Name">
+                    <input type="text" [placeholder]="'First Name' | translate">
                 </div>
                 <div>
-                    <input type="text" i18n-placeholder placeholder="Last Name">
+                    <input type="text" [placeholder]="'Last Name' | translate">
                 </div>
                 <div>
-                    <input type="email" i18n-placeholder placeholder="Email">
+                    <input type="email" [placeholder]="'Email' | translate">
                 </div>
                 <div>
-                    <input type="phone" i18n-placeholder placeholder="Phone">
+                    <input type="phone" [placeholder]="'Phone' | translate">
                 </div>
-                <textarea class="block-textaerea" name="" id="" cols="30" rows="10" i18n-placeholder placeholder="Type your message here"></textarea>
+                <textarea class="block-textaerea" name="" id="" cols="30" rows="10" [placeholder]="'Type your message here' | translate"></textarea>
             </div>
             <button class="button-submit">
                 <b>Submit</b>
@@ -155,7 +91,7 @@
 
     <div class="site" fxLayout="row" fxFlexFill>
         <div fxLayoutAlign="end center" fxFlex="23%">
-            <img src="../../../assets/images/officialsite.webp" alt="">
+            <img src="assets/images/officialsite.webp" alt="">
         </div>
         <div fxFlex="53%" fxLayout="column">
             <p>
@@ -171,13 +107,13 @@
 <div class="logos-back" fxLayout="row" fxFlexFill fxLayoutAlign="center start">
     <div fxLayoutAlign="space-around start" class="logos">
         <a href="https://www.facebook.com/aglancesolutions/" target="_blank">
-            <img src="../../assets/images/facebook.png" alt="">
+            <img src="assets/images/facebook.png" alt="">
         </a>
         <a href="https://twitter.com/AglanceSolution" target="_blank">
-            <img src="../../assets/images/twitter.png" alt="">
+            <img src="assets/images/twitter.png" alt="">
         </a>
         <a href="https://www.linkedin.com/company/aglance-solutions" target="_blank">
-            <img src="../../assets/images/linkdin.png" alt="">
+            <img src="assets/images/linkdin.png" alt="">
         </a>
     </div>
 </div>

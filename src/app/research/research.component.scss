@@ -1,18 +1,3 @@
-@font-face {
-    font-family: raleway;
-    src: url(../../assets/fonts/Raleway-Thin.ttf)
-}
-
-@font-face {
-    font-family: ralewayBold;
-    src: url(../../assets/fonts/Raleway-SemiBold.ttf)
-}
-
-@font-face {
-    font-family: ralewayRegular;
-    src: url(../../assets/fonts/Raleway-Regular.ttf)
-}
-
 .regular {
     font-family: ralewayRegular !important;
 }
@@ -29,191 +14,6 @@ b,
 
 h2 {
     letter-spacing: 0.3em;
-}
-
-// menu-burger
-.menu-media-burger {
-    display: none;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border-radius: 50%;
-    position: fixed;
-    top: 9px;
-    left: 9px;
-    width: 50px;
-    height: 50px;
-}
-
-#menu__toggle {
-    opacity: 0;
-}
-
-.menu__btn {
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 26px;
-    height: 26px;
-    margin: auto;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.menu__btn>span,
-.menu__btn>span::before,
-.menu__btn>span::after {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #616161;
-}
-
-.menu__btn>span::before {
-    content: '';
-    top: -8px;
-}
-
-.menu__btn>span::after {
-    content: '';
-    top: 8px;
-}
-
-.menu__box {
-    display: block;
-    position: fixed;
-    visibility: hidden;
-    top: 0;
-    left: -100%;
-    width: 300px;
-    height: 100%;
-    margin: 0;
-    padding: 80px 0;
-    list-style: none;
-    background-color: #fffffff2;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-}
-
-// .hide {
-//     display: none;
-// }
-
-.menu__item {
-    display: block;
-    padding: 12px 24px;
-    color: #333;
-    font-family: raleway, sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    border-bottom: 1px solid white;
-    width: 70%;
-    margin: auto;
-}
-
-.hide {
-    border: none;
-}
-
-.focus-a {
-    color: rgba(179, 242, 255, 1);
-}
-
-.menu__item:hover {
-    background-color: #CFD8DC;
-}
-
-#menu__toggle:checked~.menu__btn>span {
-    transform: rotate(45deg);
-}
-
-#menu__toggle:checked~.menu__btn>span::before {
-    top: 0;
-    transform: rotate(0);
-}
-
-#menu__toggle:checked~.menu__btn>span::after {
-    top: 0;
-    transform: rotate(90deg);
-}
-
-#menu__toggle:checked~.menu__box {
-    visibility: visible;
-    left: 0;
-}
-
-//   ---------------
-
-.header {
-    background: #012240;
-    height: 52px !important;
-    min-height: 70px !important;
-    position: fixed !important;
-}
-
-.header-height {
-    height: 52px !important;
-}
-
-.menu {
-    border-top: 2px solid rgba(179, 242, 255, 1);
-    margin-left: 20%;
-}
-
-.menu a {
-    text-decoration: none;
-    color: white;
-    line-height: 52px !important;
-    text-align: center;
-    border-top: none;
-}
-
-.span-app:hover {
-    .drop-down {
-        display: block !important;
-    }
-}
-
-.drop-down:hover {
-    p {
-        display: block !important;
-    }
-}
-
-.menu a:hover {
-    color: #0BB6B2;
-    border-top: 4px solid rgba(179, 242, 255, 1);
-    line-height: 48px;
-}
-
-.focus {
-    color: #0BB6B2 !important;
-    border-top: 4px solid rgba(179, 242, 255, 1) !important;
-    line-height: 48px !important;
-}
-
-.drop-down {
-    display: none !important;
-    background: #ffffffe8;
-    padding-top: 3px;
-    position: absolute;
-    top: 50px;
-    width: 185px;
-}
-
-.drop-down p {
-    line-height: 2rem;
-    border-top: 1px solid rgba(179, 242, 255, 1);
-    color: #0BB6B2;
-    text-decoration: none;
-}
-
-.drop-down p:hover {
-    border-top: 3px solid rgba(179, 242, 255, 1);
-    line-height: 1.8rem;
-    color: #0BB6B2;
 }
 
 .header-font-first {
@@ -269,8 +69,6 @@ h2 {
     text-align: center;
     width: 80%;
     margin-top: 12%;
-    // font-weight: 700;
-    // font-family: ralewayBold !important;
 }
 
 .title-second {
@@ -347,14 +145,6 @@ h2 {
 }
 
 @media(max-width:1440px) {
-    .header-height {
-        max-width: 80% !important;
-    }
-
-    .menu {
-        margin-left: 15%;
-    }
-
     .header-font-second p {
         width: 56%;
         margin-top: 2%;
@@ -374,22 +164,6 @@ h2 {
 }
 
 @media(max-width:1024px) {
-    .menu {
-        display: none !important;
-    }
-
-    .menu-media-burger {
-        display: block !important;
-    }
-
-    .logo {
-        margin: auto;
-    }
-
-    .header-height {
-        max-width: 90% !important;
-    }
-
     .header-font-first {
         background-size: cover;
     }
@@ -410,14 +184,6 @@ h2 {
 
     .title-fourth {
         margin-top: 0;
-    }
-
-    .navigate {
-        margin-bottom: 5%;
-    }
-
-    .logo {
-        max-width: 265px !important;
     }
 
     .header-font-second span {

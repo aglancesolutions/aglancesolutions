@@ -1,67 +1,3 @@
-<div class="header" fxLayout="row" fxFlexFill fxLayoutAlign="center center">
-    <div fxLayout="row" fxLayoutAlign="start center" fxFlex="53%" class="header-height">
-        <div class="menu-media-burger">
-            <div class="hamburger-menu">
-                <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
-                <ul class="menu__box">
-                    <li>
-                        <a class="menu__item focus-a" href="#">HOME</a>
-                    </li>
-                    <li>
-                        <a class="menu__item">+APPLICATIONS</a>
-                    </li>
-                    <li>
-                        <a class="menu__item hide" routerLink="/academic">ACADEMIC</a>
-                    </li>
-                    <li>
-                        <a class="menu__item hide" routerLink="/enterprise">ENTERPRISE</a>
-                    </li>
-                    <li>
-                        <a class="menu__item hide" routerLink="/healthcare">HEALTHCARE</a>
-                    </li>
-                    <li>
-                        <a class="menu__item" routerLink="/research">RESEARCH</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="logo" fxFlex="30%">
-            <img src="../../assets/images/logologo.webp" alt="">
-        </div>
-        <div class="menu" fxFlex="70%" fxLayout="row" fxFlexFill fxLayoutAlign="space-around center">
-            <a fxFlex="185px" class="focus">
-                <span>
-                    <b i18n>HOME</b>
-                </span>
-            </a>
-            <a fxFlex="185px" fxLayout="column" class="span-app">
-                <span>
-                    <b i18n>APPLICATIONS</b>
-                </span>
-                <div fxLayout="column" class="drop-down">
-                    <p routerLink="/academic">
-                        <b i18n>ACADEMIC</b>
-                    </p>
-                    <p routerLink="/enterprise">
-                        <b i18n>ENTERPRISE</b>
-                    </p>
-                    <p routerLink="/healthcare">
-                        <b i18n>HEALTHCARE</b>
-                    </p>
-                </div>
-            </a>
-            <a routerLink="/research" fxFlex="185px">
-                <span>
-                    <b i18n>RESEARCH</b>
-                </span>
-            </a>
-        </div>
-    </div>
-</div>
-
 <div class="media-blocks-reverse" fxLayout="column">
     <div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="our-firm">
         <div fxFlex="21%" fxLayoutAlign="end center" fxLayout="column" class="content">
@@ -70,22 +6,22 @@
                     <span class="regular">
                         IDENTIFY
                     </span>
-                    <span i18n>
+                    <span translate>
                         <b>PAIN & DISCOMFORT </b>
                     </span>
                 </p>
                 <hr>
             </div>
-            <div class="about" i18n>
+            <div class="about" translate>
                 <p>We are the leading digital mapping software for identifying patterns and drivers of pain and discomfort.</p>
             </div>
-            <div class="about" i18n>
+            <div class="about" translate>
                 <p>Our software provides an intelligent starting point for understanding, developing and implementing strategies
                     to combat pain..</p>
             </div>
             <a href="">
                 <button class="btn-link">
-                    <b i18n>
+                    <b translate>
                         Read more
                     </b>
                 </button>
@@ -98,7 +34,7 @@
     <div fxLayout="row" fxFlexFill fxLayoutAlign="space-around center" class=" second-block">
         <div class="academic" fxLayoutAlign="center center">
             <div class="text-link" fxLayout="column" fxLayoutAlign="center center">
-                <a href="" i18n>Academic</a>
+                <a href="" translate>Academic</a>
                 <svg fxLayoutAlign="center center" preserveAspectRatio="none" data-bbox="10 51.5 180 97" viewBox="10 51.5 180 97" height="100"
                     width="100" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img">
                     <g>
@@ -110,20 +46,20 @@
             <div class="academic-hover-back" fxLayout="column" fxLayoutAlign="center center">
                 <div class="academic-hover">
                     <h2>
-                        <b i18n>ACADEMIC</b>
+                        <b translate>ACADEMIC</b>
                     </h2>
                     <hr>
-                    <p i18n>Track, map and analyse pain and discomfort patterns to increase our understanding of mechanisms, drivers,
+                    <p translate>Track, map and analyse pain and discomfort patterns to increase our understanding of mechanisms, drivers,
                         and influencing factors</p>
                     <button class="btn-hover">
-                        <b i18n>Learn More</b>
+                        <b translate>Learn More</b>
                     </button>
                 </div>
             </div>
         </div>
         <div class="enterprise" fxLayoutAlign="center center">
             <div class="text-link" fxLayout="column" fxLayoutAlign="center center">
-                <a href="" i18n>Enterprise</a>
+                <a href="" translate>Enterprise</a>
                 <svg fxLayoutAlign="center center" preserveAspectRatio="none" data-bbox="10 51.5 180 97" viewBox="10 51.5 180 97" height="100"
                     width="100" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img">
                     <g>
@@ -135,13 +71,13 @@
             <div class="enterprise-hover-back" fxLayout="column" fxLayoutAlign="center center">
                 <div class="enterprise-hover">
                     <h2>
-                        <b i18n>ENTERPRISE</b>
+                        <b translate>ENTERPRISE</b>
                     </h2>
                     <hr>
-                    <p i18n>Receive company reports detailing common pain and discomfort patterns, intelligent starting points for
+                    <p translate>Receive company reports detailing common pain and discomfort patterns, intelligent starting points for
                         preventing work-related pain, and suggestions for for promoting health and well-being of employees</p>
                     <button class="btn-hover">
-                        <b i18n>Learn More</b>
+                        <b translate>Learn More</b>
                     </button>
                 </div>
             </div>
@@ -149,7 +85,7 @@
 
         <div class="health" fxLayoutAlign="center center">
             <div class="text-link" fxLayout="column" fxLayoutAlign="center center">
-                <a href="" i18n>Health care</a>
+                <a href="" translate>Health care</a>
                 <svg fxLayoutAlign="center center" preserveAspectRatio="none" data-bbox="10 51.5 180 97" viewBox="10 51.5 180 97" height="100"
                     width="100" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img">
                     <g>
@@ -161,13 +97,13 @@
             <div class="health-hover-back" fxLayout="column" fxLayoutAlign="center center">
                 <div class="health-hover">
                     <h2>
-                        <b i18n>HEALTHCARE</b>
+                        <b translate>HEALTHCARE</b>
                     </h2>
                     <hr>
-                    <p i18n>Connect and communicate with patients and clients on a daily, weekly or monthly basis by tracking, mapping
+                    <p translate>Connect and communicate with patients and clients on a daily, weekly or monthly basis by tracking, mapping
                         and easily assessing changes in their pain and discomfort patterns</p>
                     <button class="btn-hover">
-                        <b i18n>Learn More</b>
+                        <b translate>Learn More</b>
                     </button>
                 </div>
             </div>
@@ -178,24 +114,24 @@
         <div fxFlex="50%" fxLayout="row" fxLayoutAlign="space-around center" class="first-back">
             <div class="first-image"></div>
             <div fxLayout="column" fxFlex="20%" class="media-block">
-                <p class="mapping" i18n>
+                <p class="mapping" translate>
                     <b>A mapping and analytics software</b>
 
                 </p>
-                <p class="mapping-about regular" i18n>Navigate Pain software provides insight about pain and discomfort</p>
+                <p class="mapping-about regular" translate>Navigate Pain software provides insight about pain and discomfort</p>
                 <button class="button btn-media">
-                    <b i18n>Learn More</b>
+                    <b translate>Learn More</b>
                 </button>
             </div>
         </div>
         <div fxFlex="50%" fxLayout="row" fxLayoutAlign="start center" class="second-back" fxLayoutAlign="space-around center">
             <div fxLayout="column" fxFlex="20%" class="media-block">
-                <p class="track" i18n>
+                <p class="track" translate>
                     <b>Track, locate and report changes</b>
                 </p>
-                <p class="track-about regular" i18n>Scientifically validated avatars guide precision reports</p>
+                <p class="track-about regular" translate>Scientifically validated avatars guide precision reports</p>
                 <button class="button btn-media">
-                    <b i18n>Learn More</b>
+                    <b translate>Learn More</b>
                 </button>
             </div>
             <div class="second-image"></div>
@@ -209,12 +145,12 @@
         <div class="academic-hover-back" fxLayout="column" fxLayoutAlign="center center">
             <div class="academic-hover">
                 <h3>
-                    <b i18n>ACADEMIC</b>
+                    <b translate>ACADEMIC</b>
                 </h3>
                 <hr>
-                <p i18n class="regular">Track, map and analyse pain and discomfort patterns to increase our understanding of mechanisms, drivers,
+                <p translate class="regular">Track, map and analyse pain and discomfort patterns to increase our understanding of mechanisms, drivers,
                     and influencing factors</p>
-                <button i18n class="btn-media regular">
+                <button translate class="btn-media regular">
                     Learn More
                 </button>
             </div>
@@ -224,12 +160,12 @@
         <div class="enterprise-hover-back" fxLayout="column" fxLayoutAlign="center center">
             <div class="enterprise-hover">
                 <h3>
-                    <b i18n>ENTERPRISE</b>
+                    <b translate>ENTERPRISE</b>
                 </h3>
                 <hr>
-                <p i18n class="regular">Receive company reports detailing common pain and discomfort patterns, intelligent starting points for preventing
+                <p translate class="regular">Receive company reports detailing common pain and discomfort patterns, intelligent starting points for preventing
                     work-related pain, and suggestions for for promoting health and well-being of employees</p>
-                <button i18n class="btn-media regular">
+                <button translate class="btn-media regular">
                     Learn More
                 </button>
             </div>
@@ -240,12 +176,12 @@
         <div class="health-hover-back" fxLayout="column" fxLayoutAlign="center center">
             <div class="health-hover">
                 <h3>
-                    <b i18n>HEALTH CARE</b>
+                    <b translate>HEALTH CARE</b>
                 </h3>
                 <hr>
-                <p i18n class="regular">Connect and communicate with patients and clients on a daily, weekly or monthly basis by tracking, mapping
+                <p translate class="regular">Connect and communicate with patients and clients on a daily, weekly or monthly basis by tracking, mapping
                     and easily assessing changes in their pain and discomfort patterns</p>
-                <button i18n class="btn-media regular">
+                <button translate class="btn-media regular">
                     Learn More
                 </button>
             </div>
@@ -257,22 +193,22 @@
     <div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="font-1">
         <div fxFlex="50%" class="font-2">
             <p class="font-title">
-                <span class="bold" i18n>
+                <span class="bold" translate>
                     OUR
                 </span>
-                <span class="bold" i18n> GOAL</span>
+                <span class="bold" translate> GOAL</span>
             </p>
             <hr>
             <p>
                 <b class="bold">
-                    <i i18n>'To capture and communicate in a glance.'</i>
+                    <i translate>'To capture and communicate in a glance.'</i>
                 </b>
             </p>
-            <p class="regular" i18n>
+            <p class="regular" translate>
                 We believe hard work and dedication separates good from phenomenal. We strive to support researchers, clinicians, and health
                 & safety officers who are pushing the limits of pain science, employee well-being, and health & safety.
             </p>
-            <p class="regular" i18n>
+            <p class="regular" translate>
                 Join our team of scientists, software developers and designers.
             </p>
         </div>
@@ -282,52 +218,52 @@
 <div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="people media-margin">
     <div fxLayoutAlign="center start" fxFlex="55%" class="media-block-people">
         <div fxLayoutAlign="center center" fxLayout="column">
-            <img src="../../assets/images/Shellie_edited_edited.webp" alt="">
+            <img src="assets/images/Shellie_edited_edited.webp" alt="">
             <p class="blue">Shellie A. Boudreau</p>
-            <p class="white regular" fxFlex="70%" i18n>
+            <p class="white regular" fxFlex="70%" translate>
                 Director and Founding Partner with an MSc. in Biomedical Engineering and a PhD in Health Science and Technology. She brings
                 over 14 years of experience as a pain scientist into the design, development, and applications of Navigate
                 Pains' core technologies.
             </p>
-            <p class="blue-small bold" i18n>'There is nothing in a caterpillar that tells you it’s going to be a butterfly.' -Buckminster Fuller</p>
+            <p class="blue-small bold" translate>'There is nothing in a caterpillar that tells you it’s going to be a butterfly.' -Buckminster Fuller</p>
         </div>
         <div fxLayoutAlign="center center" fxLayout="column">
-            <img src="../../assets/images/Samuel Nygaard_edited_edited.webp" alt="">
+            <img src="assets/images/Samuel Nygaard_edited_edited.webp" alt="">
             <p class="blue">Samuel Nygaard</p>
-            <p class="white regular" fxFlex="70%" i18n>CTO and Co-founder with an MSc. in Computer Science is leading the development of Navigate Pains' core technology.
+            <p class="white regular" fxFlex="70%" translate>CTO and Co-founder with an MSc. in Computer Science is leading the development of Navigate Pains' core technology.
                 He brings additional competencies such as machine learning for creating advanced metrics, mapping functionality
                 and data visualization.</p>
-            <p class="blue-small bold" i18n>Don't wait for opportunity, create it.</p>
+            <p class="blue-small bold" translate>Don't wait for opportunity, create it.</p>
         </div>
         <div fxLayoutAlign="center center" fxLayout="column">
-            <img src="../../assets/images/Toke Breer kite surfing.webp" alt="">
+            <img src="assets/images/Toke Breer kite surfing.webp" alt="">
             <p class="blue">Toke Breer</p>
-            <p class="white regular" i18n>Partner and Head of business development and sales. With an MSc in Business Administration and Computer Science,
+            <p class="white regular" translate>Partner and Head of business development and sales. With an MSc in Business Administration and Computer Science,
                 he brings 20 years of experience in optimizing software design, function and customer service.</p>
-            <p class="blue-small bold" i18n>We can't direct the wind but we can adjust the sails.</p>
+            <p class="blue-small bold" translate>We can't direct the wind but we can adjust the sails.</p>
         </div>
     </div>
 </div>
 
 <div fxLayout="row" fxFlexFill fxLayoutAlign="center center" class="email media-margin">
     <div fxLayoutAlign="center center" fxFlex="35%" fxLayout="column" class="media-block-email">
-        <p class="title-email" i18n>GET IN TOUCH</p>
+        <p class="title-email" translate>GET IN TOUCH</p>
         <hr>
         <p class="email-about regular">We would love to hear from you</p>
         <div fxLayoutAlign="space-between center" class="block-bigger">
             <div>
-                <input type="text" i18n-placeholder placeholder="First Name">
+                <input type="text" [placeholder]="'First Name' | translate">
             </div>
             <div>
-                <input type="text" i18n-placeholder placeholder="Last Name">
+                <input type="text" [placeholder]="'Last Name' | translate">
             </div>
             <div>
-                <input type="email" i18n-placeholder placeholder="Email">
+                <input type="email" [placeholder]="'Email' | translate">
             </div>
             <div>
-                <input type="phone" i18n-placeholder placeholder="Phone">
+                <input type="phone" [placeholder]="'Phone' | translate">
             </div>
-            <textarea class="block-textaerea" i18n-placeholder placeholder="Type your message here"></textarea>
+            <textarea class="block-textaerea" [placeholder]="'Type your message here' | translate"></textarea>
         </div>
         <button class="button-submit">Submit</button>
     </div>
@@ -336,13 +272,13 @@
 <div class="logos-back" fxLayout="row" fxFlexFill fxLayoutAlign="center start">
     <div fxLayoutAlign="space-around start" class="logos">
         <a href="https://www.facebook.com/aglancesolutions/" target="_blank">
-            <img src="../../assets/images/facebook.png" alt="">
+            <img src="assets/images/facebook.png" alt="">
         </a>
         <a href="https://twitter.com/AglanceSolution" target="_blank">
-            <img src="../../assets/images/twitter.png" alt="">
+            <img src="assets/images/twitter.png" alt="">
         </a>
         <a href="https://www.linkedin.com/company/aglance-solutions" target="_blank">
-            <img src="../../assets/images/linkdin.png" alt="">
+            <img src="assets/images/linkdin.png" alt="">
         </a>
     </div>
 </div>
