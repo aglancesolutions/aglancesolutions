@@ -34,28 +34,28 @@
         <div class="menu" fxFlex="70%" fxLayout="row" fxFlexFill fxLayoutAlign="space-around center">
             <a href="" fxFlex="185px">
                 <span>
-                    <b i18n>HOME</b>
+                    <b translate>HOME</b>
                 </span>
             </a>
             <a fxFlex="185px" fxLayout="column" class="span-app focus">
                 <span>
-                    <b i18n>APPLICATIONS</b>
+                    <b translate>APPLICATIONS</b>
                 </span>
                 <div fxLayout="column" class="drop-down">
                     <p routerLink="/academic">
-                        <b i18n>ACADEMIC</b>
+                        <b translate>ACADEMIC</b>
                     </p>
                     <p routerLink="/enterprise">
-                        <b i18n>ENTERPRISE</b>
+                        <b translate>ENTERPRISE</b>
                     </p>
                     <p routerLink="/healthcare">
-                        <b i18n>HEALTHCARE</b>
+                        <b translate>HEALTHCARE</b>
                     </p>
                 </div>
             </a>
             <a routerLink="/research" fxFlex="185px">
                 <span>
-                    <b i18n>RESEARCH</b>
+                    <b translate>RESEARCH</b>
                 </span>
             </a>
         </div>
@@ -396,18 +396,18 @@
             <p class="email-about regular">Want to learn more? Contact us about tailored solutions and quotes to match the size and needs of your project.</p>
             <div fxLayoutAlign="space-between center" class="block-bigger">
                 <div>
-                    <input type="text" i18n-placeholder placeholder="First Name">
+                    <input type="text" [placeholder]="'First Name' | translate">
                 </div>
                 <div>
-                    <input type="text" i18n-placeholder placeholder="Last Name">
+                    <input type="text" [placeholder]="'Last Name' | translate">
                 </div>
                 <div>
-                    <input type="email" i18n-placeholder placeholder="Email">
+                    <input type="email" [placeholder]="'Email' | translate">
                 </div>
                 <div>
-                    <input type="phone" i18n-placeholder placeholder="Phone">
+                    <input type="phone" [placeholder]="'Phone' | translate">
                 </div>
-                <textarea class="block-textaerea" name="" id="" cols="30" rows="10" i18n-placeholder placeholder="Type your message here"></textarea>
+                <textarea class="block-textaerea" name="" id="" cols="30" rows="10" [placeholder]="'Type your message here' | translate"></textarea>
             </div>
             <button class="button-submit">
                 <b>Submit</b>
