@@ -18,7 +18,6 @@ textarea {
 }
 
 .title {
-    background-image: url(../../../assets/images/Healthcarepage.webp);
     background-position: top;
     background-size: cover;
     height: 555px;
@@ -71,7 +70,6 @@ textarea {
 
 .font1 {
     width: 53%;
-    background-image: url(../../../assets/images/second.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,7 +78,6 @@ textarea {
 
 .font2 {
     width: 53%;
-    background-image: url(../../../assets/images/helth1.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,7 +86,6 @@ textarea {
 
 .font3 {
     width: 53%;
-    background-image: url(../../../assets/images/health2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -315,9 +311,6 @@ textarea {
 }
 
 @media(max-width:1440px) {
-    .header-height {
-        max-width: 80% !important;
-    }
 
     .title,
     .title-about,
@@ -331,29 +324,9 @@ textarea {
     .media-block-email {
         max-width: 55% !important;
     }
-
-    .menu {
-        margin-left: 15%;
-    }
 }
 
 @media(max-width:1024px) {
-    .menu {
-        display: none !important;
-    }
-
-    .menu-media-burger {
-        display: block !important;
-    }
-
-    .logo {
-        max-width: 265px !important;
-        margin: auto;
-    }
-
-    .header-height {
-        max-width: 90% !important;
-    }
 
     .font-color h1 {
         width: 85%;
@@ -372,11 +345,6 @@ textarea {
 @media(max-width:768px) {
     .title p {
         font-size: 35px;
-    }
-
-    .logo {
-        max-width: 265px !important;
-        margin: auto;
     }
 
     .title {

@@ -45,7 +45,6 @@ textarea {
 
 .title-about {
     width: 53%;
-    background-image: url(../../../assets/images/font.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #14b6b2;
@@ -93,14 +92,12 @@ textarea {
 }
 
 .shadow {
-    background-image: url(../../../assets/images/fade_line.png);
     background-position: 0 58px;
     height: 29px;
     width: 100%;
 }
 
 .shadow-back::after {
-    background-image: url(../../../assets/images/fade_line.png);
     background-position: 100% -87px;
     height: 29px;
     right: 0;
@@ -111,7 +108,6 @@ textarea {
 }
 
 .shadow-back::before {
-    background-image: url(../../../assets/images/fade_line.png);
     background-position: 0% -87px;
     height: 29px;
     right: 0;
