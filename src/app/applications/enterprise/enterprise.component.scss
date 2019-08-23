@@ -1,0 +1,401 @@
+.regular {
+    font-family: ralewayRegular !important;
+}
+
+p,
+span {
+    font-family: raleway, sans-serif;
+}
+
+b,
+textarea {
+    font-family: ralewayBold !important;
+}
+
+.background {
+    padding-top: 70px;
+    background: #022d5d;
+}
+
+.title {
+    background-position: center;
+    background-size: cover;
+    height: 555px;
+    width: 53%;
+    text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+}
+
+.title img {
+    width: 981px;
+    height: 555px;
+    object-fit: contain;
+}
+
+.title p {
+    font-size: 48px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.title-about {
+    width: 53%;
+    background-color: white;
+}
+
+.title-first {
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    color: #14b6b2;
+    text-align: center;
+    width: 80%;
+    margin: 3% auto 1%;
+}
+
+.title-hr {
+    border-top: 5px solid #14b6b2;
+    width: 5%;
+}
+
+.title-second {
+    font-size: 23px;
+    line-height: 1.6em;
+    color: #022c5c;
+    text-align: center;
+    width: 70%;
+    margin: 1% auto 5%;
+}
+
+.work {
+    width: 53%;
+    background: #012240;
+}
+
+.work1 {
+    width: 53%;
+    background: white;
+}
+
+.work p,
+.work1 p {
+    letter-spacing: 0.15em;
+    font-family: Helvetica, sans-serif !important;
+    color: #0BB6B2;
+    font-size: 32px;
+    line-height: 1em;
+    text-align: center;
+    width: 90%;
+}
+
+.work span {
+    font-size: 22px;
+    line-height: 1.4em;
+    text-align: center;
+    color: #FFFFFF;
+    width: 80%;
+    margin-bottom: 1%;
+}
+
+.work1 span {
+    font-size: 22px;
+    line-height: 1.4em;
+    text-align: center;
+    color: #002D56;
+    width: 80%;
+    margin-bottom: 1%;
+}
+
+.risk {
+    background: white;
+    width: 53%;
+    padding-bottom: 2%;
+}
+
+.green {
+    color: #002D56;
+    font-size: 32px;
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+
+.green b {
+    color: #0BB6B2;
+}
+
+.pricing-email p {
+    letter-spacing: 0.15em;
+    font-size: 46px;
+    color: white;
+    text-align: center;
+    margin: 13% auto 3%;
+    font-family: Helvetica, sans-serif
+}
+
+.email hr {
+    width: 10%;
+    border-bottom: 5px solid white;
+}
+
+.email {
+    background: #002E57;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.email-about {
+    letter-spacing: 0.08em;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5%;
+    width: 85%;
+}
+
+.title-email {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-size: 46px;
+    line-height: 0.3rem;
+    font-family: ralewayBold !important;
+}
+
+
+.email input {
+    padding-left: 24px;
+    width: 87%;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 3%;
+    font-style: italic;
+}
+
+.email input::placeholder {
+    color: #02305b;
+}
+
+.email textarea::placeholder {
+    color: #02305b;
+}
+
+.email input:hover {
+    width: 89%;
+    height: 57px;
+    margin-bottom: 1%;
+}
+
+.email textarea {
+    padding-left: 24px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.email textarea:hover {
+    height: 120px;
+    margin-bottom: 15px;
+    width: 94%;
+}
+
+.block-bigger {
+    justify-content: space-evenly !important;
+    width: 80% !important;
+    flex-wrap: wrap;
+}
+
+.block-bigger div {
+    width: 49%;
+}
+
+.block-bigger div:hover {
+    width: 50%;
+}
+
+.block-textaerea {
+    padding-top: 15px;
+    width: 92%;
+    height: 115px;
+    margin-left: -2%;
+}
+
+.button-submit {
+    background: #0BB6B2;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    width: 145px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10%;
+    transition: 0.4s;
+}
+
+.button-submit:hover {
+    background: #333;
+}
+
+.site {
+    background: #012240;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+}
+
+.site p {
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-size: 28px;
+    text-align: center;
+    margin: 1% auto;
+}
+
+.site hr {
+    border-bottom: 3px solid white;
+    width: 5%;
+    margin-bottom: 3%;
+}
+
+.site span {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+.logos-back {
+    background: #012240;
+}
+
+.logos {
+    margin-top: 1%;
+    margin-bottom: 7%;
+    width: 184px;
+}
+
+.logos img {
+    width: 48px;
+    height: 48px;
+}
+
+@media(max-width:1725px) {
+    .media-block-email {
+        max-width: 55% !important;
+    }
+
+    .title,
+    .title-about,
+    .work,
+    .work1,
+    .risk {
+        width: 80%;
+    }
+
+    .risk {
+        padding-bottom: 4%;
+    }
+}
+
+@media(max-width:1152px) {
+
+    .work,
+    .work1 {
+        flex-wrap: wrap;
+    }
+
+    .work div,
+    .work1 div {
+        max-width: 100% !important;
+    }
+
+    .media-block-email {
+        max-width: 75% !important;
+    }
+}
+
+@media(max-width:768px) {
+
+    .title p {
+        font-size: 32px;
+    }
+
+    .work img,
+    .work1 img {
+        width: 90%;
+    }
+
+    .green {
+        font-size: 20px;
+    }
+
+    .title {
+        height: 400px;
+    }
+
+    .block-bigger {
+        flex-wrap: wrap;
+    }
+
+    .block-bigger div {
+        width: 100%;
+    }
+
+    .block-textaerea {
+        width: 87%;
+    }
+
+    .site {
+        flex-wrap: wrap;
+    }
+
+    .site div {
+        max-width: 70% !important;
+        margin: auto;
+    }
+
+    .site img {
+        margin: auto;
+        margin-bottom: 5%;
+    }
+}
+
+@media(max-width:425px) {
+    .title p {
+        font-size: 30px;
+    }
+
+    .title-first {
+        font-size: 20px;
+    }
+
+    .title-second {
+        font-size: 15px;
+    }
+
+    .work span,
+    .work1 span {
+        font-size: 15px;
+    }
+
+    .green {
+        font-size: 18px;
+    }
+
+    .email-about {
+        font-size: 18px;
+    }
+
+    .site p {
+        font-size: 18px;
+    }
+
+    .title {
+        height: 320px;
+    }
+}

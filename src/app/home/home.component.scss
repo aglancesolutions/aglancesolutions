@@ -1,0 +1,807 @@
+.regular {
+    font-family: ralewayRegular !important;
+}
+
+p,
+span {
+    font-family: raleway, sans-serif;
+}
+
+b,
+.bold,
+textarea {
+    font-family: ralewayBold !important;
+}
+
+h2 {
+    letter-spacing: 0.3em;
+}
+
+.paralax {
+    background-attachment: fixed;
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 756px;
+}
+
+.title {
+    font-size: 48px;
+    line-height: 3rem;
+    text-align: center;
+    color: #0BB6B2;
+    margin-top: 40%;
+}
+
+hr {
+    width: 15%;
+    border-bottom: 5px solid #0BB6B2;
+}
+
+.about p {
+    font-size: 24px;
+    color: #002E5D;
+    text-align: center;
+    margin-bottom: 1%;
+    font-family: ralewayRegular !important;
+}
+
+.content {
+    margin-left: 23%;
+}
+
+.second-block {
+    background: #242323;
+}
+
+.academic {
+    width: 500px;
+    height: 422px;
+    background-position: center;
+    background-size: cover;
+}
+
+.academic:hover {
+    .academic-hover-back {
+        background-color: #020a3a87 !important;
+        height: 100%;
+        transition: 0.3s;
+    }
+
+    .text-link {
+        display: none !important;
+    }
+
+    .academic-hover {
+        display: block !important;
+    }
+}
+
+.health:hover {
+    .health-hover-back {
+        background-color: #020a3a87 !important;
+        height: 100%;
+        transition: 0.3s;
+    }
+
+    .text-link {
+        display: none !important;
+    }
+
+    .health-hover {
+        display: block !important;
+    }
+}
+
+.enterprise:hover {
+    .enterprise-hover-back {
+        background-color: #020a3a87 !important;
+        height: 100%;
+        transition: 0.3s;
+    }
+
+    .text-link {
+        display: none !important;
+    }
+
+    .enterprise-hover {
+        display: block !important;
+    }
+}
+
+.academic-hover,
+.health-hover,
+.enterprise-hover {
+    width: 74%;
+    color: white;
+    text-align: center;
+    display: none !important;
+    font-family: ralewayRegular !important;
+    font-size: 22px;
+}
+
+.academic-hover p {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-family: ralewayRegular !important;
+}
+
+.enterprise-hover p {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-family: ralewayRegular !important;
+}
+
+.health-hover p {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-family: ralewayRegular !important;
+}
+
+.academic-hover hr {
+    border-bottom: 2px solid white;
+}
+
+.enterprise-hover hr {
+    border-bottom: 2px solid white;
+}
+
+.health-hover hr {
+    border-bottom: 2px solid white;
+}
+
+.second-block-media {
+    display: none !important;
+}
+
+.btn-link {
+    background: #0BB6B2;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+    color: white;
+    margin-top: 20%;
+    transition: 0.4s;
+    // margin-bottom: 100px;
+}
+
+.btn-link:hover {
+    background: #333;
+}
+
+.academic-hover button {
+    background: #0BB6B2;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+    color: white;
+    transition: 0.4s;
+}
+
+.enterprise-hover button {
+    background: #0BB6B2;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+    color: white;
+    transition: 0.4s;
+}
+
+.health-hover button {
+    background: #0BB6B2;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+    color: white;
+    transition: 0.4s;
+}
+
+.enterprise {
+    width: 500px;
+    height: 422px;
+    background-position: center;
+    background-size: cover;
+}
+
+.health {
+    width: 500px;
+    height: 422px;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-link a {
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+    font-size: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: ralewayBold !important;
+}
+
+.text-link svg {
+    width: 50px;
+    height: 25px;
+    margin-top: 3%;
+}
+
+.first-image {
+    width: 590px;
+    height: 420px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.second-image {
+    width: 590px;
+    height: 420px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.first-back {
+    background: #022f5a;
+}
+
+.mapping,
+.track {
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-size: 22px;
+    text-align: center;
+}
+
+.mapping-about,
+.track-about {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.track,
+.track-about {
+    color: #002E57 !important;
+}
+
+.button {
+    background: #0BB6B2;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+    color: white;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.font {
+    height: 409px !important;
+    min-height: 409px !important;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: #14b6b2;
+}
+
+.font-1 {
+    background-color: #14b6b29e;
+    padding-bottom: 2%;
+}
+
+.font-2 {
+    margin-top: 2%;
+}
+
+.font-2 p {
+    font-size: 18px;
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+}
+
+.font-2 .font-title {
+    font-size: 60px;
+    line-height: 0.3rem;
+}
+
+.font-2 hr {
+    width: 10%;
+    border-bottom: 5px solid white;
+    margin-bottom: 5%;
+}
+
+.people {
+    background: #012240;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.people img {
+    border-radius: 50%;
+    height: 200px;
+    margin-bottom: 5%;
+}
+
+.blue {
+    font-size: 22px;
+    color: #0BB6B2;
+    text-align: center;
+    font-weight: bold;
+    font-family: ralewayBold !important;
+}
+
+.blue-small {
+    color: #0BB6B2;
+    text-align: center;
+    font-size: 16px;
+    width: 80%;
+}
+
+.white {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 75%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.email {
+    background: #002E57;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.email-about {
+    letter-spacing: 0.08em;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 1.2em;
+    font-weight: bold;
+    margin-bottom: 8%;
+    // font-family: ralewayBold !important;
+}
+
+.title-email {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-size: 46px;
+    line-height: 0.3rem;
+    font-family: ralewayBold !important;
+}
+
+.email hr {
+    width: 10%;
+    border-bottom: 5px solid white;
+}
+
+.email input {
+    padding-left: 24px;
+    width: 87%;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 3%;
+    font-style: italic;
+}
+
+.email input::placeholder {
+    color: #02305b;
+}
+
+.email textarea::placeholder {
+    color: #02305b;
+}
+
+.email input:hover {
+    width: 89%;
+    height: 57px;
+    margin-bottom: 1%;
+}
+
+.email textarea {
+    padding-left: 24px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.email textarea:hover {
+    height: 120px;
+    margin-bottom: 15px;
+    width: 94%;
+}
+
+.block-bigger {
+    justify-content: space-evenly !important;
+    width: 80% !important;
+    flex-wrap: wrap;
+}
+
+.block-bigger div {
+    width: 49%;
+}
+
+.block-bigger div:hover {
+    width: 50%;
+}
+
+.block-textaerea {
+    padding-top: 15px;
+    width: 92%;
+    height: 115px;
+    margin-left: -2%;
+}
+
+.button-submit {
+    background: #0BB6B2;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    width: 145px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10%;
+    transition: 0.4s;
+}
+
+.button-submit:hover {
+    background-color: #333;
+}
+
+.enterprise-hover .btn-hover:hover {
+    background-color: #333;
+}
+
+.academic-hover .btn-hover:hover {
+    background-color: #333;
+}
+
+.health-hover .btn-hover:hover {
+    background-color: #333;
+}
+
+.logos-back {
+    background: #012240;
+}
+
+.logos {
+    margin-top: 1%;
+    margin-bottom: 7%;
+    width: 184px;
+}
+
+.logos img {
+    width: 48px;
+    height: 48px;
+}
+
+@media(max-width:1640px) {
+    .media-block {
+        max-width: 27% !important;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .media-block-people {
+        max-width: 60% !important;
+    }
+}
+
+@media(max-width:1440px) {
+    .email input {
+        padding-left: 15px;
+    }
+
+    .paralax {
+        background-size: contain;
+    }
+
+    .header-height {
+        max-width: 80% !important;
+    }
+
+    .content {
+        margin-left: 10%;
+        max-width: 35% !important;
+        margin-bottom: 150px;
+    }
+
+    .first-image,
+    .second-image {
+        background-size: contain;
+        background-position: center;
+    }
+
+    .media-block {
+        max-width: 40% !important;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    .media-block-people {
+        max-width: 70% !important;
+    }
+
+    .block-bigger div {
+        width: 49%;
+    }
+
+    .font-1 {
+        padding-top: 5%;
+    }
+
+    .font-2 {
+        padding-bottom: 3%;
+    }
+
+    .academic-hover,
+    .health-hover,
+    .enterprise-hover {
+        font-size: 18px;
+    }
+
+    .title-email {
+        line-height: 2.5rem;
+    }
+
+}
+
+@media(max-width:1025px) {
+    .content {
+        margin-left: 0%;
+        max-width: 45% !important;
+    }
+
+    .media-block-email {
+        max-width: 90% !important;
+    }
+
+    .media-block-people {
+        max-width: 93% !important;
+    }
+
+    .second-block {
+        display: none !important;
+    }
+
+    .media-blocks-reverse {
+        flex-flow: column-reverse !important;
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .first-back {
+        padding-top: 15%;
+        padding-bottom: 3%;
+        flex-wrap: wrap;
+        max-width: 100% !important;
+    }
+
+    .second-back {
+        flex-wrap: wrap-reverse;
+        padding-bottom: 3%;
+        max-width: 100% !important;
+    }
+
+    .our-firm {
+        flex-wrap: wrap;
+    }
+
+    .our-firm div {
+        max-width: 80% !important;
+    }
+
+    .paralax {
+        background-attachment: local;
+        height: 500px;
+    }
+
+    .content {
+        margin-bottom: 2%;
+    }
+
+    .second-block-media {
+        padding-top: 4%;
+        background: #242323;
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+
+    .second-block-media div {
+        width: 52%;
+    }
+
+    .health,
+    .enterprise,
+    .academic {
+        margin-bottom: 3%;
+    }
+
+    .academic-hover,
+    .health-hover,
+    .enterprise-hover {
+        display: block !important;
+    }
+
+    .enterprise-hover-back,
+    .health-hover-back,
+    .academic-hover-back {
+        background-color: #020a3a87 !important;
+        height: 100%;
+        width: 100% !important;
+        font-size: 20px;
+    }
+
+    .block-textaerea {
+        width: 91%;
+        margin-left: -3%;
+    }
+
+    .font-2 .font-title {
+        font-size: 33px;
+        line-height: 3rem;
+    }
+
+    .title {
+        margin-top: 10%;
+    }
+}
+
+@media(max-width: 768px) {
+    .media-block-people {
+        flex-wrap: wrap;
+    }
+
+    .media-block-people div {
+        width: 95%;
+    }
+
+    .btn-media {
+        font-size: 20px;
+        height: 45px !important;
+        width: 150px !important;
+    }
+
+    .second-block-media div {
+        width: 67%;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .about {
+        font-size: 23px;
+    }
+
+    .media-block {
+        max-width: 40% !important;
+    }
+
+    .mapping,
+    .track {
+        font-size: 21px;
+    }
+
+    .media-block-email {
+        flex-wrap: wrap;
+    }
+
+    .media-block-email div {
+        width: 100%;
+    }
+
+    .block-textaerea {
+        width: 86%;
+        margin-left: -8%;
+    }
+
+    .font-1 {
+        padding-top: 5%;
+    }
+
+    .block-bigger {
+        flex-wrap: wrap;
+    }
+
+    .block-bigger div {
+        width: 100%
+    }
+
+    .second-image {
+        height: 315px;
+    }
+
+    .paralax {
+        height: 300px;
+    }
+
+    .font-2 {
+        max-width: 80% !important;
+    }
+}
+
+@media(max-width: 425px) {
+    .paralax {
+        width: 100%;
+        height: 300px;
+    }
+
+    .our-firm div {
+        max-width: 95% !important;
+    }
+
+    .second-block-media div {
+        width: 95%;
+        height: 50%;
+    }
+
+    .first-image {
+        height: 340px;
+    }
+
+    .media-block {
+        max-width: 55% !important;
+        margin-top: -50px;
+    }
+
+    .media-block-people {
+        max-width: 100% !important;
+    }
+
+    .media-block-email {
+        max-width: 100% !important;
+    }
+
+    .email input {
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .font-2 .font-title {
+        font-size: 24px !important;
+        padding-top: 7%;
+        line-height: 3rem;
+    }
+
+    .font-2 {
+        max-width: 90% !important;
+        margin-bottom: 5%;
+    }
+
+    .title-email {
+        font-size: 25px;
+    }
+
+    .enterprise-hover-back,
+    .health-hover-back,
+    .academic-hover-back {
+        font-size: 17px;
+        padding-bottom: 2%;
+    }
+
+}
